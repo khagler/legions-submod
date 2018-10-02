@@ -2736,4 +2736,53 @@ decisions = {
 			factor = 1
 		}
 	}
+	
+	organize_legio_iii_isaura = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			OR = { 
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+			}
+			NOT = { 
+				c_legio_iii_isaura = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_isauria
+			d_isauria = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}				
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_iii_isaura status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_iii_isaura = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

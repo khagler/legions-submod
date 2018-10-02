@@ -135,6 +135,8 @@ c_legio_vi_herculia;Legio VI Herculia;Legio VI Herculia;;;;;;;;;;;;x
 c_legio_vi_herculia_adj;Legio VI Herculian;Legio VI Herculian;;;;;;;;;;;;x
 c_legio_xi_claudia;Legio XI Claudia;Legio XI Claudia;;;;;;;;;;;;x
 c_legio_xi_claudia_adj;Legio XI Claudian;Legio XI Claudian;;;;;;;;;;;;x
+c_legio_iii_isaura;Legio III Isaura;Legio III Isaura;;;;;;;;;;;;x
+c_legio_iii_isaura_adj;Legio III Isauran;Legio III Isauran;;;;;;;;;;;;x
 #Restore legion decisions;Décisions pour restaurer les légions;;;;;;;;;;;;;x
 organize_legio_x_gemina;Organize the Legio X Gemina;Organiser la Legio X Gemina;;;;;;;;;;;;x
 organize_legio_x_gemina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique.;;;;;;;;;;;;x
@@ -268,6 +270,8 @@ organize_legio_vi_herculia;Organize the Legio VI Herculia;Organiser la Legio VI 
 organize_legio_vi_herculia_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 organize_legio_xi_claudia;Organize the Legio XI Claudia;Organiser la Legio XI Claudia;;;;;;;;;;;;x
 organize_legio_xi_claudia_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_iii_isaura;Organize the Legio III Isaura;Organiser la Legio III Isaura;;;;;;;;;;;;x
+organize_legio_iii_isaura_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 #Legion events;Événements des légions;;;;;;;;;;;;;x
 EVTNAMELEG.2;[From.PrimaryTitle.GetName] organized;[From.PrimaryTitle.GetName] organisée;;;;;;;;;;;;x
 EVTDESCLEG.2;You have re-organized and vassalized the [From.PrimaryTitle.GetName] of the historical Roman province under your command. May their mighty power help you fight off the barbarians!;Vous avez réorganisé et vassalisé la [From.PrimaryTitle.GetName] de la province romaine sous votre contrôle. Que leur puissance vous aide à repousser les barbares!;;;;;;;;;;;;x
