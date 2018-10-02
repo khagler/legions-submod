@@ -176,6 +176,7 @@ roman_legion_title_trigger = {
 		title = c_legio_i_adiutrix
 		title = c_legio_ii_adiutrix
 		title = c_legio_vi_herculia
+		title = c_legio_xi_claudia
 		title = d_imperial_fleet_wre
 		title = d_imperial_fleet_ere
 	}
