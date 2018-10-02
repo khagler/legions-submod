@@ -494,6 +494,8 @@ character_event = {
 }
 
 # britannic legions without britannia
+# Odd event numbers (LEG.201, etc.) are to keep related events visually grouped
+# without having to renumber all the existing events.
 character_event = {
 	id = LEG.20
 	
@@ -509,6 +511,80 @@ character_event = {
 			}
 		} 
 		has_landed_title = c_legio_ii_augusta
+		k_england = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.201
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_xx_valeria_victrix
+		k_england = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.201
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_vi_victrix
 		k_england = {
 			OR = {
 				has_holder = no
