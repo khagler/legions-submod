@@ -1,0 +1,1947 @@
+######################################
+#
+# Legion Events
+# LEG.1 - LEG.9 Technical events
+# LEG.10 - LEG.99 Legion disband events
+#
+######################################
+# By Joemit
+######################################
+
+namespace = LEG
+
+# Ping to set legion commander as FROM
+character_event = {
+	id = LEG.1
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+		
+		liege = {
+			narrative_event = { id = LEG.2 }
+		}
+	}
+}
+
+# Legion created 
+# FROM is the legion commander
+# ROOT is the decision taker and liege
+narrative_event = {
+	id = LEG.2
+	title = EVTNAMELEG.2
+	desc = EVTDESCLEG.2
+	picture = GFX_evt_battle_roman
+		
+	is_triggered_only = yes
+	
+	immediate = {
+		# Workaround for grant_title in decision giving a strong claim...
+		FROM = {
+			primary_title = {
+				remove_claim = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTALEG.2
+		
+		prestige = 100
+	}
+}
+
+# Notify the owner that the legion is disbanding
+# FROM is the legion commander
+# ROOT is the liege
+narrative_event = {
+	id = LEG.3
+	title = EVTNAMELEG.3
+	desc = EVTDESCLEG.3
+	picture = GFX_evt_battle_roman
+		
+	is_triggered_only = yes
+	
+	option = {
+		name= {
+			text = EVTOPTALEG.3
+			trigger = {
+				has_romance_culture_trigger = yes
+			}
+		}
+		name= {
+			text = EVTOPTBLEG.3
+			trigger = {
+				NOT = { has_romance_culture_trigger = yes }
+			}
+		}
+		hidden_tooltip = {
+			FROM = {
+				# any_demesne_title mercenary = yes #doesn't work
+				any_mercenary_band = {
+					limit = {
+						holder_scope = {
+							character = FROM
+						}
+					}
+					
+					activate_title = { title = THIS status = no }
+					unsafe_destroy_landed_title = THIS
+					
+					# Workaround a bug with count tier titles that don't dissolve automatically.
+					# Attempting to grant the title will effectively destroy it.
+					#create_legion_commander_effect = yes
+					#new_character = {
+					#	grant_title = PREV
+					#}
+					holder_scope = {
+						e_landless = {
+							holder_scope = {
+								set_defacto_vassal = PREVPREV
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				has_romance_culture_trigger = yes
+			}
+			prestige = -100
+		}
+	}
+	
+}
+
+# Pannonian legions without Pannonia
+character_event = {
+	id = LEG.10
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		}
+		has_landed_title = c_legio_x_gemina
+		d_pannonia_superior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+character_event = {
+	id = LEG.11
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_italica
+		d_salona = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+character_event = {
+	id = LEG.12
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_italica
+		d_noricum = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# Annonarian legions without Annonaria
+character_event = {
+	id = LEG.13
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT
+				}
+			}
+		}
+		has_landed_title = c_legio_viii_augusta
+		d_flaminia = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# Suburbicarian legions without Suburbicaria
+character_event = {
+	id = LEG.14
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT
+				}
+			}
+		}
+		has_landed_title = c_legio_i_suburbicaria
+		k_italia = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# raetia_noricumn legions without raetia_noricum
+character_event = {
+	id = LEG.15
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT
+				}
+			}
+		}
+		has_landed_title = c_legio_i_raetia_noricum
+		k_raetia_noricum = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# sicilian legions without sicilia
+character_event = {
+	id = LEG.16
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		}
+		has_landed_title = c_legio_i_sicilia
+		d_sicily = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# petraean (or whatever) legions without petra
+character_event = {
+	id = LEG.17
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT
+				}
+			}
+		}
+		has_landed_title = c_legio_x_fretensis
+		d_tabuk = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# roman-arabian (or whatever) legions without roman-arabia
+character_event = {
+	id = LEG.18
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT
+				}
+			}
+		}
+		has_landed_title = c_legio_iii_gallica
+		d_arabia = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# gallaecian legions without gallaecia
+character_event = {
+	id = LEG.19
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_vii_gemina
+		k_gallaecia = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# britannic legions without britannia
+character_event = {
+	id = LEG.20
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_augusta
+		k_england = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# jordanian legions without jordan
+character_event = {
+	id = LEG.21
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_vi_ferrata
+		k_arabia_petraea = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# septem_provincian legions without septem_provincae
+character_event = {
+	id = LEG.22
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_septem_provincae
+		k_septem_provincae = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# lugdunensisan legions without lugdunensis
+character_event = {
+	id = LEG.23
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_v_iovia
+		k_moesia_superior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# belgican legions without belgica
+character_event = {
+	id = LEG.24
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_belgica
+		k_belgica = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# germania_inferiorn legions without germania_inferior
+character_event = {
+	id = LEG.25
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_germania_inferior
+		k_germania_inferior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# african legions without africa
+character_event = {
+	id = LEG.26
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iv_flavia_felix
+		d_moesia_superior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# numidian legions without numidia
+character_event = {
+	id = LEG.28
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iii_augusta
+		d_numidiamilitiana = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# dacian legions without dacia
+character_event = {
+	id = LEG.29
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_dacia
+		k_dacia = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+# mesopotamian legion without mesopotamia
+character_event = {
+	id = LEG.30
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_mesopotamia
+		d_osrhoene = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.31
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_flavia_constantia_gallicana
+		d_brittany = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.32
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_britannica
+		d_durocotorum = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.33
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_xii_fulminata
+		d_coloneia = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.34
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_flavia_constantia
+		d_europa = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.35
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_flavia_constantia
+		d_thebais = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.36
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_isaura_sagittaria
+		d_isauria = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.27
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_v_macedonica
+		d_moesia_secunda = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.37
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_herculia
+		d_scythia_minor = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.38
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_isaura
+		d_isauria = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.39
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iii_diocletiana
+		d_alexandria = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.40
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iv_parthica
+		d_osrhoene = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.41
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iv_italica
+		d_syria = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.42
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_iulia_alpina
+		d_thessalonika = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.43
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iii_herculea
+		d_thessalonika = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.44
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iv_martia
+		d_palestinia_salutaris = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.45
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_felix_valentis_thebaeorum
+		d_thessalonika = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.46
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_flavia_theodosiana
+		d_europa = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.47
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_maximiana_thaebanorum
+		d_thebais = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.48
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_xv_apollinaris
+		d_pontus_polemoniacus = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.49
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_illyricorum
+		d_syria_salutaris = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.50
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_xiii_gemina
+		d_arcadia = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.51
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_pontica
+		d_pontus_polemoniacus = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.52
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iii_cyrenaica
+		d_arabia_magna = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.53
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_armeniaca
+		d_syria = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.54
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_ii_traiana_fortis
+		d_alexandria = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.55
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_iv_scythia
+		d_syria_salutaris = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.56
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_iovia
+		d_scythia_minor = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.57
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_sala
+		d_mauria = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.58
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = { 
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		} 
+		has_landed_title = c_legio_i_noricorum
+		d_noricum = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
