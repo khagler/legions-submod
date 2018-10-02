@@ -109,6 +109,14 @@ c_legio_i_iulia_alpina;Legio I Iulia Alpina;Legio I Iulia Alpina;;;;;;;;;;;;x
 c_legio_i_iulia_alpina_adj;Legio I Iulia Alpinan;Legio I Iulia Alpinan;;;;;;;;;;;;x
 c_legio_iii_iulia_alpina;Legio III Iulia Alpina;Legio III Iulia Alpina;;;;;;;;;;;;x
 c_legio_iii_iulia_alpina_adj;Legio III Iulia Alpinan;Legio III Iulia Alpinan;;;;;;;;;;;;x
+c_legio_i_minerva;Legio I Minerva;Legio I Minerva;;;;;;;;;;;;x
+c_legio_i_minerva_adj;Legio I Minervan;Legio I Minervan;;;;;;;;;;;;x
+c_legio_xxx_ulpia_victrix;Legio XXX Ulpia Victrix;Legio XXX Ulpia Victrix;;;;;;;;;;;;x
+c_legio_xxx_ulpia_victrix_adj;Legio XXX Ulpia Victrixan;Legio XXX Ulpia Victrixan;;;;;;;;;;;;x
+c_legio_i_flavia_martis;Legio I Flavia Martis;Legio I Flavia Martis;;;;;;;;;;;;x
+c_legio_i_flavia_martis_adj;Legio I Flavia Martisan;Legio I Flavia Martisan;;;;;;;;;;;;x
+c_legio_xxii_primigenia;Legio XXII Primigenia;Legio XXII Primigenia;;;;;;;;;;;;x
+c_legio_xxii_primigenia_adj;Legio XXII Primigenian;Legio XXII Primigenian;;;;;;;;;;;;x
 #Restore legion decisions;Décisions pour restaurer les légions;;;;;;;;;;;;;x
 organize_legio_x_gemina;Organize the Legio X Gemina;Organiser la Legio X Gemina;;;;;;;;;;;;x
 organize_legio_x_gemina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique.;;;;;;;;;;;;x
