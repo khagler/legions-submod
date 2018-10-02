@@ -2502,4 +2502,192 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	organize_legio_xiv_gemina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_pannonia
+			NOT = { 
+				c_legio_xiv_gemina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_pannonia_superior
+			d_pannonia_superior = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_xiv_gemina status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_xiv_gemina = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	organize_legio_i_adiutrix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_pannonia
+			NOT = { 
+				c_legio_i_adiutrix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_pannonia_inferior
+			d_pannonia_superior = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_i_adiutrix status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_i_adiutrix = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	organize_legio_ii_adiutrix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_pannonia
+			NOT = { 
+				c_legio_ii_adiutrix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_pannonia_inferior
+			d_pannonia_superior = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_ii_adiutrix status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_ii_adiutrix = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	organize_legio_vi_herculia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_pannonia
+			NOT = { 
+				c_legio_vi_herculia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_pannonia_inferior
+			d_pannonia_superior = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_vi_herculia status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_vi_herculia = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

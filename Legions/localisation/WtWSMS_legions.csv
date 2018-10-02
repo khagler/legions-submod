@@ -125,6 +125,14 @@ c_legio_iii_flavia_salutis;Legio III Flavia Salutis;Legio III Flavia Salutis;;;;
 c_legio_iii_flavia_salutis_adj;Legio III Flavia Salutisan;Legio III Flavia Salutisan;;;;;;;;;;;;x
 c_legio_iii_italica;Legio III Flavia Italica;Legio III Flavia Italica;;;;;;;;;;;;x
 c_legio_iii_italica_adj;Legio III Flavia Italican;Legio III Flavia Italican;;;;;;;;;;;;x
+c_legio_xiv_gemina;Legio XIV Gemina;Legio XIV Gemina;;;;;;;;;;;;x
+c_legio_xiv_gemina_adj;Legio XIV Geminan;Legio XIV Geminan;;;;;;;;;;;;x
+c_legio_i_adiutrix;Legio I Adiutrix;Legio I Adiutrix;;;;;;;;;;;;x
+c_legio_i_adiutrix_adj;Legio I Adiutrixan;Legio I Adiutrixan;;;;;;;;;;;;x
+c_legio_ii_adiutrix;Legio II Adiutrix;Legio II Adiutrix;;;;;;;;;;;;x
+c_legio_ii_adiutrix_adj;Legio II Adiutrixan;Legio II Adiutrixan;;;;;;;;;;;;x
+c_legio_vi_herculia;Legio VI Herculia;Legio VI Herculia;;;;;;;;;;;;x
+c_legio_vi_herculia_adj;Legio VI Herculian;Legio VI Herculian;;;;;;;;;;;;x
 #Restore legion decisions;Décisions pour restaurer les légions;;;;;;;;;;;;;x
 organize_legio_x_gemina;Organize the Legio X Gemina;Organiser la Legio X Gemina;;;;;;;;;;;;x
 organize_legio_x_gemina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique.;;;;;;;;;;;;x
@@ -248,6 +256,14 @@ organize_legio_iii_flavia_salutis;Organize the Legio III Flavia Salutis;Organise
 organize_legio_iii_flavia_salutis_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 organize_legio_iii_italica;Organize the Legio III Italica;Organiser la Legio III Italica;;;;;;;;;;;;x
 organize_legio_iii_italica_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_xiv_gemina;Organize the Legio XIV Gemina;Organiser la Legio XIV Gemina;;;;;;;;;;;;x
+organize_legio_xiv_gemina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_i_adiutrix;Organize the Legio I Adiutrix;Organiser la Legio I Adiutrix;;;;;;;;;;;;x
+organize_legio_i_adiutrix_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_ii_adiutrix;Organize the Legio II Adiutrix;Organiser la Legio II Adiutrix;;;;;;;;;;;;x
+organize_legio_ii_adiutrix_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_vi_herculia;Organize the Legio VI Herculia;Organiser la Legio VI Herculia;;;;;;;;;;;;x
+organize_legio_vi_herculia_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 #Legion events;Événements des légions;;;;;;;;;;;;;x
 EVTNAMELEG.2;[From.PrimaryTitle.GetName] organized;[From.PrimaryTitle.GetName] organisée;;;;;;;;;;;;x
 EVTDESCLEG.2;You have re-organized and vassalized the [From.PrimaryTitle.GetName] of the historical Roman province under your command. May their mighty power help you fight off the barbarians!;Vous avez réorganisé et vassalisé la [From.PrimaryTitle.GetName] de la province romaine sous votre contrôle. Que leur puissance vous aide à repousser les barbares!;;;;;;;;;;;;x

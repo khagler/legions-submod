@@ -154,6 +154,155 @@ character_event = {
 		}
 	}
 }
+
+character_event = {
+	id = LEG.100
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		}
+		has_landed_title = c_legio_xiv_gemina
+		d_pannonia_superior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.101
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		}
+		has_landed_title = c_legio_i_adiutrix
+		d_pannonia_superior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.102
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		}
+		has_landed_title = c_legio_ii_adiutrix
+		d_pannonia_superior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
+character_event = {
+	id = LEG.103
+	
+	hide_window = yes
+	only_rulers = yes
+
+	trigger = {
+		NOT = {
+			e_landless = {
+				holder_scope = {
+					is_liege_of	= ROOT 
+				}
+			}
+		}
+		has_landed_title = c_legio_vi_herculia
+		d_pannonia_superior = {
+			OR = {
+				has_holder = no
+				holder_scope = {
+					has_romance_culture_trigger = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		liege = {
+			narrative_event = { id = LEG.3 }
+		}
+	}
+}
+
 character_event = {
 	id = LEG.11
 	
