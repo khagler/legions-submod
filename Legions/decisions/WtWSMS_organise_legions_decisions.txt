@@ -2785,4 +2785,280 @@ decisions = {
 			factor = 1
 		}
 	}
+	
+	organize_legio_xvi_flavia_firma = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_oriens
+			NOT = { 
+				c_legio_xvi_flavia_firma = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_syria_salutaris
+			d_syria_salutaris = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}				
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_xvi_flavia_firma status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_xvi_flavia_firma = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organize_legio_i_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_oriens
+			NOT = { 
+				c_legio_i_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_osrhoene
+			d_osrhoene = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}				
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_i_parthica status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_i_parthica = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organize_legio_iii_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_oriens
+			NOT = { 
+				c_legio_i_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_osrhoene
+			d_osrhoene = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}				
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_iii_parthica status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_iii_parthica = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organize_legio_ii_armeniaca = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_oriens
+			NOT = { 
+				c_legio_ii_armeniaca = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_mesopotamia
+			d_osrhoene = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}				
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_ii_armeniaca status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_ii_armeniaca = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organize_legio_ii_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_oriens
+			NOT = { 
+				c_legio_ii_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_mesopotamia
+			d_osrhoene = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}				
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_ii_parthica status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_ii_parthica = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organize_legio_vi_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_oriens
+			NOT = { 
+				c_legio_vi_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_mesopotamia
+			d_osrhoene = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}				
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_vi_parthica status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_vi_parthica = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

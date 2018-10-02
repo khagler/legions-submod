@@ -178,6 +178,12 @@ roman_legion_title_trigger = {
 		title = c_legio_vi_herculia
 		title = c_legio_xi_claudia
 		title = c_legio_iii_isaura
+		title = c_legio_xvi_flavia_firma
+		title = c_legio_i_parthica
+		title = c_legio_iii_parthica
+		title = c_legio_ii_armeniaca
+		title = c_legio_ii_parthica
+		title = c_legio_vi_parthica
 		title = d_imperial_fleet_wre
 		title = d_imperial_fleet_ere
 	}

@@ -137,6 +137,18 @@ c_legio_xi_claudia;Legio XI Claudia;Legio XI Claudia;;;;;;;;;;;;x
 c_legio_xi_claudia_adj;Legio XI Claudian;Legio XI Claudian;;;;;;;;;;;;x
 c_legio_iii_isaura;Legio III Isaura;Legio III Isaura;;;;;;;;;;;;x
 c_legio_iii_isaura_adj;Legio III Isauran;Legio III Isauran;;;;;;;;;;;;x
+c_legio_xvi_flavia_firma;Legio XVI Flavia Firma;Legio XVI Flavia Firma;;;;;;;;;;;;x
+c_legio_xvi_flavia_firma_adj;Legio XVI Flavia Firman;Legio XVI Flavia Firman;;;;;;;;;;;;x
+c_legio_i_parthica;Legio I Parthica;Legio I Parthica;;;;;;;;;;;;x
+c_legio_i_parthica_adj;Legio I Parthican;Legio I Parthican;;;;;;;;;;;;x
+c_legio_iii_parthica;Legio III Parthica;Legio III Parthica;;;;;;;;;;;;x
+c_legio_iii_parthica_adj;Legio III Parthican;Legio III Parthican;;;;;;;;;;;;x
+c_legio_ii_armeniaca;Legio II Armeniaca;Legio II Armeniaca;;;;;;;;;;;;x
+c_legio_ii_armeniaca_adj;Legio II Armeniacan;Legio II Armeniacan;;;;;;;;;;;;x
+c_legio_ii_parthica;Legio II Parthica;Legio II Parthica;;;;;;;;;;;;x
+c_legio_ii_parthica_adj;Legio II Parthican;Legio II Parthican;;;;;;;;;;;;x
+c_legio_vi_parthica;Legio VI Parthica;Legio VI Parthica;;;;;;;;;;;;x
+c_legio_vi_parthica_adj;Legio VI Parthican;Legio VI Parthican;;;;;;;;;;;;x
 #Restore legion decisions;Décisions pour restaurer les légions;;;;;;;;;;;;;x
 organize_legio_x_gemina;Organize the Legio X Gemina;Organiser la Legio X Gemina;;;;;;;;;;;;x
 organize_legio_x_gemina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique.;;;;;;;;;;;;x
@@ -272,6 +284,16 @@ organize_legio_xi_claudia;Organize the Legio XI Claudia;Organiser la Legio XI Cl
 organize_legio_xi_claudia_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 organize_legio_iii_isaura;Organize the Legio III Isaura;Organiser la Legio III Isaura;;;;;;;;;;;;x
 organize_legio_iii_isaura_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_xvi_flavia_firma;Organize the Legio XVI Flavia Firma;Organiser la Legio XVI Flavia Firma;;;;;;;;;;;;x
+organize_legio_xvi_flavia_firma_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_i_parthica;Organize the Legio I Parthica;Organiser la Legio I Parthica;;;;;;;;;;;;x
+organize_legio_i_parthica_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_ii_armeniaca;Organize the Legio II Armeniaca;Organiser la Legio II Armeniaca;;;;;;;;;;;;x
+organize_legio_ii_armeniaca_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_ii_parthica;Organize the Legio II Parthica;Organiser la Legio II Parthica;;;;;;;;;;;;x
+organize_legio_ii_parthica_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_vi_parthica;Organize the Legio VI Parthica;Organiser la Legio VI Parthica;;;;;;;;;;;;x
+organize_legio_vi_parthica_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 #Legion events;Événements des légions;;;;;;;;;;;;;x
 EVTNAMELEG.2;[From.PrimaryTitle.GetName] organized;[From.PrimaryTitle.GetName] organisée;;;;;;;;;;;;x
 EVTDESCLEG.2;You have re-organized and vassalized the [From.PrimaryTitle.GetName] of the historical Roman province under your command. May their mighty power help you fight off the barbarians!;Vous avez réorganisé et vassalisé la [From.PrimaryTitle.GetName] de la province romaine sous votre contrôle. Que leur puissance vous aide à repousser les barbares!;;;;;;;;;;;;x
