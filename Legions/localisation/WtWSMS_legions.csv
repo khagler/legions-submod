@@ -222,6 +222,28 @@ organize_legio_i_iovia;Organize the Legio I Iovia;Organiser la Legio I Iovia;;;;
 organize_legio_i_iovia_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 organize_legio_sala;Organize Equites Colonia;Organiser Equites Colonia;;;;;;;;;;;;x
 organize_legio_sala_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_xx_valeria_victrix;Organize the Legio XX Valeria Victrix;Organiser la Legio XX Valeria Victrix;;;;;;;;;;;;x
+organize_legio_xx_valeria_victrix_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_vi_victrix;Organize the Legio VI Victrix;Organiser la Legio VI Victrix;;;;;;;;;;;;x
+organize_legio_vi_victrix_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_i_iulia_alpina;Organize the Legio I Iulia Alpina;Organiser la Legio I Iulia Alpina;;;;;;;;;;;;x
+organize_legio_i_iulia_alpina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_iii_iulia_alpina;Organize the Legio III Iulia Alpina;Organiser la Legio III Iulia Alpina;;;;;;;;;;;;x
+organize_legio_iii_iulia_alpina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_i_minerva;Organize the Legio I Minerva;Organiser la Legio I Minerva;;;;;;;;;;;;x
+organize_legio_i_minerva_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_xxx_ulpia_victrix;Organize the Legio XXX Ulpia Victrix;Organiser la Legio XXX Ulpia Victrix;;;;;;;;;;;;x
+organize_legio_xxx_ulpia_victrix_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_i_flavia_martis;Organize the Legio I Flavia Martis;Organiser la Legio I Flavia Martis;;;;;;;;;;;;x
+organize_legio_i_flavia_martis_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_xxii_primigenia;Organize the Legio XXII Primigenia;Organiser la Legio XXII Primigenia;;;;;;;;;;;;x
+organize_legio_xxii_primigenia_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_i_flavia_pacis;Organize the Legio I Flavia Pacis;Organiser la Legio I Flavia Pacis;;;;;;;;;;;;x
+organize_legio_i_flavia_pacis_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_ii_flavia_virtuis;Organize the Legio II Flavia Virtuis;Organiser la Legio II Flavia Virtuis;;;;;;;;;;;;x
+organize_legio_ii_flavia_virtuis_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_iii_flavia_salutis;Organize the Legio III Flavia Salutis;Organiser la Legio III Flavia Salutis;;;;;;;;;;;;x
+organize_legio_iii_flavia_salutis_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 #Legion events;Événements des légions;;;;;;;;;;;;;x
 EVTNAMELEG.2;[From.PrimaryTitle.GetName] organized;[From.PrimaryTitle.GetName] organisée;;;;;;;;;;;;x
 EVTDESCLEG.2;You have re-organized and vassalized the [From.PrimaryTitle.GetName] of the historical Roman province under your command. May their mighty power help you fight off the barbarians!;Vous avez réorganisé et vassalisé la [From.PrimaryTitle.GetName] de la province romaine sous votre contrôle. Que leur puissance vous aide à repousser les barbares!;;;;;;;;;;;;x
