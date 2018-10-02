@@ -2041,5 +2041,97 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
+
+	organize_legio_i_iulia_alpina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_septem_provincae
+			NOT = { 
+				c_legio_i_iulia_alpina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_alpes
+			k_england = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}					
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_i_iulia_alpina status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_i_iulia_alpina = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	organize_legio_iii_iulia_alpina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_septem_provincae
+			NOT = { 
+				c_legio_i_iulia_alpina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_alpes
+			k_england = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}					
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_iii_iulia_alpina status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_iii_iulia_alpina = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

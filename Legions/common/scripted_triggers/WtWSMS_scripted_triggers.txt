@@ -162,6 +162,8 @@ roman_legion_title_trigger = {
 		title = c_legio_v_iovia
 		title = c_legio_xx_valeria_victrix
 		title = c_legio_vi_victrix
+		title = c_legio_i_iulia_alpina
+		title = c_legio_iii_iulia_alpina
 		title = d_imperial_fleet_wre
 		title = d_imperial_fleet_ere
 	}
