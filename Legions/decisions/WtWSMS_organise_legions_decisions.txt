@@ -2456,4 +2456,50 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	organize_legio_iii_italica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = k_raetia_noricum
+			NOT = { 
+				c_legio_iii_italica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 2000
+			completely_controls = d_bodensee
+			k_england = {
+				has_holder = yes
+				holder_scope = {
+					has_romance_culture_trigger = yes
+				}					
+			}
+		}
+		effect = {
+			wealth = -2000
+			activate_title = { title = c_legio_iii_italica status = yes }
+			hidden_tooltip = {
+				create_legion_commander_effect = yes
+				new_character = {
+					c_legio_iii_italica = {
+						grant_title = PREV
+						religion = PREV
+					}
+					set_defacto_liege = ROOT
+					character_event = { id = LEG.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -171,6 +171,7 @@ roman_legion_title_trigger = {
 		title = c_legio_i_flavia_pacis
 		title = c_legio_ii_flavia_virtuis
 		title = c_legio_iii_flavia_salutis
+		title = c_legio_iii_italica
 		title = d_imperial_fleet_wre
 		title = d_imperial_fleet_ere
 	}

@@ -123,6 +123,8 @@ c_legio_ii_flavia_virtuis;Legio II Flavia Virtuis;Legio II Flavia Virtuis;;;;;;;
 c_legio_ii_flavia_virtuis_adj;Legio II Flavia Virtuisan;Legio II Flavia Virtuisan;;;;;;;;;;;;x
 c_legio_iii_flavia_salutis;Legio III Flavia Salutis;Legio III Flavia Salutis;;;;;;;;;;;;x
 c_legio_iii_flavia_salutis_adj;Legio III Flavia Salutisan;Legio III Flavia Salutisan;;;;;;;;;;;;x
+c_legio_iii_italica;Legio III Flavia Italica;Legio III Flavia Italica;;;;;;;;;;;;x
+c_legio_iii_italica_adj;Legio III Flavia Italican;Legio III Flavia Italican;;;;;;;;;;;;x
 #Restore legion decisions;Décisions pour restaurer les légions;;;;;;;;;;;;;x
 organize_legio_x_gemina;Organize the Legio X Gemina;Organiser la Legio X Gemina;;;;;;;;;;;;x
 organize_legio_x_gemina_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique.;;;;;;;;;;;;x
@@ -244,6 +246,8 @@ organize_legio_ii_flavia_virtuis;Organize the Legio II Flavia Virtuis;Organiser 
 organize_legio_ii_flavia_virtuis_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 organize_legio_iii_flavia_salutis;Organize the Legio III Flavia Salutis;Organiser la Legio III Flavia Salutis;;;;;;;;;;;;x
 organize_legio_iii_flavia_salutis_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+organize_legio_iii_italica;Organize the Legio III Italica;Organiser la Legio III Italica;;;;;;;;;;;;x
+organize_legio_iii_italica_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 #Legion events;Événements des légions;;;;;;;;;;;;;x
 EVTNAMELEG.2;[From.PrimaryTitle.GetName] organized;[From.PrimaryTitle.GetName] organisée;;;;;;;;;;;;x
 EVTDESCLEG.2;You have re-organized and vassalized the [From.PrimaryTitle.GetName] of the historical Roman province under your command. May their mighty power help you fight off the barbarians!;Vous avez réorganisé et vassalisé la [From.PrimaryTitle.GetName] de la province romaine sous votre contrôle. Que leur puissance vous aide à repousser les barbares!;;;;;;;;;;;;x
