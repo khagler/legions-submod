@@ -571,7 +571,7 @@ character_event = {
 }
 
 character_event = {
-	id = LEG.201
+	id = LEG.202
 	
 	hide_window = yes
 	only_rulers = yes
