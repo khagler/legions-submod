@@ -2135,7 +2135,7 @@ decisions = {
 		}
 	}
 
-	organize_legio_i_minerva = {
+	organize_legio_i_minervia = {
 		is_high_prio = yes
 		only_playable = yes
 		potential = {
@@ -2144,7 +2144,7 @@ decisions = {
 			age = 16
 			has_landed_title = k_germania_inferior
 			NOT = { 
-				c_legio_i_minerva = {
+				c_legio_i_minervia = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2163,11 +2163,11 @@ decisions = {
 		}
 		effect = {
 			wealth = -2000
-			activate_title = { title = c_legio_i_minerva status = yes }
+			activate_title = { title = c_legio_i_minervia status = yes }
 			hidden_tooltip = {
 				create_legion_commander_effect = yes
 				new_character = {
-					c_legio_i_minerva = {
+					c_legio_i_minervia = {
 						grant_title = PREV
 						religion = PREV
 					}

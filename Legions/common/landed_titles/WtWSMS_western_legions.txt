@@ -876,7 +876,7 @@ c_legio_iii_iulia_alpina = {
 	}
 }
 
-c_legio_i_minerva = {
+c_legio_i_minervia = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
 	
