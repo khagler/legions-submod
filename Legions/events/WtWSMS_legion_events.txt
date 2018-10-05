@@ -131,7 +131,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_x_gemina
+		OR = {
+		    has_landed_title = c_legio_x_gemina
+		    has_landed_title = c_legio_x_gemina_restored
+		}
+
 		d_pannonia_superior = {
 			OR = {
 				has_holder = no
@@ -167,7 +171,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_italica
+		OR = {
+		    has_landed_title = c_legio_i_italica
+		    has_landed_title = c_legio_i_italica_restored
+		}
+
 		d_salona = {
 			OR = {
 				has_holder = no
@@ -203,7 +211,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_italica
+		OR = {
+		    has_landed_title = c_legio_ii_italica
+		    has_landed_title = c_legio_ii_italica_restored
+		}
+
 		d_noricum = {
 			OR = {
 				has_holder = no
@@ -241,7 +253,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_viii_augusta
+		OR = {
+		    has_landed_title = c_legio_viii_augusta
+		    has_landed_title = c_legio_viii_augusta_restored
+		}
+
 		d_flaminia = {
 			OR = {
 				has_holder = no
@@ -279,7 +295,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_suburbicaria
+		OR = {
+		    has_landed_title = c_legio_i_suburbicaria
+		    has_landed_title = c_legio_i_suburbicaria_restored
+		}
+
 		k_italia = {
 			OR = {
 				has_holder = no
@@ -317,7 +337,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_raetia_noricum
+		OR = {
+		    has_landed_title = c_legio_i_raetia_noricum
+		    has_landed_title = c_legio_i_raetia_noricum_restored
+		}
+
 		k_raetia_noricum = {
 			OR = {
 				has_holder = no
@@ -355,7 +379,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_sicilia
+		OR = {
+		    has_landed_title = c_legio_i_sicilia
+		    has_landed_title = c_legio_i_sicilia_restored
+		}
+
 		d_sicily = {
 			OR = {
 				has_holder = no
@@ -393,7 +421,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_x_fretensis
+		OR = {
+		    has_landed_title = c_legio_x_fretensis
+		    has_landed_title = c_legio_x_fretensis_restored
+		}
+
 		d_tabuk = {
 			OR = {
 				has_holder = no
@@ -431,7 +463,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iii_gallica
+		OR = {
+		    has_landed_title = c_legio_iii_gallica
+		    has_landed_title = c_legio_iii_gallica_restored
+		}
+
 		d_arabia = {
 			OR = {
 				has_holder = no
@@ -469,7 +505,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_vii_gemina
+		OR = {
+		    has_landed_title = c_legio_vii_gemina
+		    has_landed_title = c_legio_vii_gemina_restored
+		}
+
 		k_gallaecia = {
 			OR = {
 				has_holder = no
@@ -507,7 +547,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_augusta
+		OR = {
+		    has_landed_title = c_legio_ii_augusta
+		    has_landed_title = c_legio_ii_augusta_restored
+		}
+
 		k_england = {
 			OR = {
 				has_holder = no
@@ -545,7 +589,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_vi_ferrata
+		OR = {
+		    has_landed_title = c_legio_vi_ferrata
+		    has_landed_title = c_legio_vi_ferrata_restored
+		}
+
 		k_arabia_petraea = {
 			OR = {
 				has_holder = no
@@ -583,7 +631,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_septem_provincae
+		OR = {
+		    has_landed_title = c_legio_i_septem_provincae
+		    has_landed_title = c_legio_i_septem_provincae_restored
+		}
+
 		k_septem_provincae = {
 			OR = {
 				has_holder = no
@@ -621,7 +673,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_v_iovia
+		OR = {
+		    has_landed_title = c_legio_v_iovia
+		    has_landed_title = c_legio_v_iovia_restored
+		}
+
 		k_moesia_superior = {
 			OR = {
 				has_holder = no
@@ -659,7 +715,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_belgica
+		OR = {
+		    has_landed_title = c_legio_i_belgica
+		    has_landed_title = c_legio_i_belgica_restored
+		}
+
 		k_belgica = {
 			OR = {
 				has_holder = no
@@ -697,7 +757,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_germania_inferior
+		OR = {
+		    has_landed_title = c_legio_i_germania_inferior
+		    has_landed_title = c_legio_i_germania_inferior_restored
+		}
+
 		k_germania_inferior = {
 			OR = {
 				has_holder = no
@@ -735,7 +799,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iv_flavia_felix
+		OR = {
+		    has_landed_title = c_legio_iv_flavia_felix
+		    has_landed_title = c_legio_iv_flavia_felix_restored
+		}
+
 		d_moesia_superior = {
 			OR = {
 				has_holder = no
@@ -773,7 +841,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iii_augusta
+		OR = {
+		    has_landed_title = c_legio_iii_augusta
+		    has_landed_title = c_legio_iii_augusta_restored
+		}
+
 		d_numidiamilitiana = {
 			OR = {
 				has_holder = no
@@ -811,7 +883,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_dacia
+		OR = {
+		    has_landed_title = c_legio_i_dacia
+		    has_landed_title = c_legio_i_dacia_restored
+		}
+
 		k_dacia = {
 			OR = {
 				has_holder = no
@@ -849,7 +925,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_mesopotamia
+		OR = {
+		    has_landed_title = c_legio_i_mesopotamia
+		    has_landed_title = c_legio_i_mesopotamia_restored
+		}
+
 		d_osrhoene = {
 			OR = {
 				has_holder = no
@@ -886,7 +966,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_flavia_constantia_gallicana
+		OR = {
+		    has_landed_title = c_legio_i_flavia_constantia_gallicana
+		    has_landed_title = c_legio_i_flavia_constantia_gallicana_restored
+		}
+
 		d_brittany = {
 			OR = {
 				has_holder = no
@@ -923,7 +1007,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_britannica
+		OR = {
+		    has_landed_title = c_legio_ii_britannica
+		    has_landed_title = c_legio_ii_britannica_restored
+		}
+
 		d_durocotorum = {
 			OR = {
 				has_holder = no
@@ -960,7 +1048,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_xii_fulminata
+		OR = {
+		    has_landed_title = c_legio_xii_fulminata
+		    has_landed_title = c_legio_xii_fulminata_restored
+		}
+
 		d_coloneia = {
 			OR = {
 				has_holder = no
@@ -997,7 +1089,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_flavia_constantia
+		OR = {
+		    has_landed_title = c_legio_i_flavia_constantia
+		    has_landed_title = c_legio_i_flavia_constantia_restored
+		}
+
 		d_europa = {
 			OR = {
 				has_holder = no
@@ -1034,7 +1130,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_flavia_constantia
+		OR = {
+		    has_landed_title = c_legio_ii_flavia_constantia
+		    has_landed_title = c_legio_ii_flavia_constantia_restored
+		}
+
 		d_thebais = {
 			OR = {
 				has_holder = no
@@ -1071,7 +1171,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_isaura_sagittaria
+		OR = {
+		    has_landed_title = c_legio_i_isaura_sagittaria
+		    has_landed_title = c_legio_i_isaura_sagittaria_restored
+		}
+
 		d_isauria = {
 			OR = {
 				has_holder = no
@@ -1108,7 +1212,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_v_macedonica
+		OR = {
+		    has_landed_title = c_legio_v_macedonica
+		    has_landed_title = c_legio_v_macedonica_restored
+		}
+
 		d_moesia_secunda = {
 			OR = {
 				has_holder = no
@@ -1145,7 +1253,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_herculia
+		OR = {
+		    has_landed_title = c_legio_ii_herculia
+		    has_landed_title = c_legio_ii_herculia_restored
+		}
+
 		d_scythia_minor = {
 			OR = {
 				has_holder = no
@@ -1182,7 +1294,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_isaura
+		OR = {
+		    has_landed_title = c_legio_ii_isaura
+		    has_landed_title = c_legio_ii_isaura_restored
+		}
+
 		d_isauria = {
 			OR = {
 				has_holder = no
@@ -1219,7 +1335,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iii_diocletiana
+		OR = {
+		    has_landed_title = c_legio_iii_diocletiana
+		    has_landed_title = c_legio_iii_diocletiana_restored
+		}
+
 		d_alexandria = {
 			OR = {
 				has_holder = no
@@ -1256,7 +1376,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iv_parthica
+		OR = {
+		    has_landed_title = c_legio_iv_parthica
+		    has_landed_title = c_legio_iv_parthica_restored
+		}
+
 		d_osrhoene = {
 			OR = {
 				has_holder = no
@@ -1293,7 +1417,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iv_italica
+		OR = {
+		    has_landed_title = c_legio_iv_italica
+		    has_landed_title = c_legio_iv_italica_restored
+		}
+
 		d_syria = {
 			OR = {
 				has_holder = no
@@ -1330,7 +1458,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_iulia_alpina
+		OR = {
+		    has_landed_title = c_legio_ii_iulia_alpina
+		    has_landed_title = c_legio_ii_iulia_alpina_restored
+		}
+
 		d_thessalonika = {
 			OR = {
 				has_holder = no
@@ -1367,7 +1499,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iii_herculea
+		OR = {
+		    has_landed_title = c_legio_iii_herculea
+		    has_landed_title = c_legio_iii_herculea_restored
+		}
+
 		d_thessalonika = {
 			OR = {
 				has_holder = no
@@ -1404,7 +1540,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iv_martia
+		OR = {
+		    has_landed_title = c_legio_iv_martia
+		    has_landed_title = c_legio_iv_martia_restored
+		}
+
 		d_palestinia_salutaris = {
 			OR = {
 				has_holder = no
@@ -1441,7 +1581,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_felix_valentis_thebaeorum
+		OR = {
+		    has_landed_title = c_legio_ii_felix_valentis_thebaeorum
+		    has_landed_title = c_legio_ii_felix_valentis_thebaeorum_restored
+		}
+
 		d_thessalonika = {
 			OR = {
 				has_holder = no
@@ -1478,7 +1622,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_flavia_theodosiana
+		OR = {
+		    has_landed_title = c_legio_i_flavia_theodosiana
+		    has_landed_title = c_legio_i_flavia_theodosiana_restored
+		}
+
 		d_europa = {
 			OR = {
 				has_holder = no
@@ -1515,7 +1663,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_maximiana_thaebanorum
+		OR = {
+		    has_landed_title = c_legio_i_maximiana_thaebanorum
+		    has_landed_title = c_legio_i_maximiana_thaebanorum_restored
+		}
+
 		d_thebais = {
 			OR = {
 				has_holder = no
@@ -1552,7 +1704,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_xv_apollinaris
+		OR = {
+		    has_landed_title = c_legio_xv_apollinaris
+		    has_landed_title = c_legio_xv_apollinaris_restored
+		}
+
 		d_pontus_polemoniacus = {
 			OR = {
 				has_holder = no
@@ -1589,7 +1745,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_illyricorum
+		OR = {
+		    has_landed_title = c_legio_i_illyricorum
+		    has_landed_title = c_legio_i_illyricorum_restored
+		}
+
 		d_syria_salutaris = {
 			OR = {
 				has_holder = no
@@ -1626,7 +1786,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_xiii_gemina
+		OR = {
+		    has_landed_title = c_legio_xiii_gemina
+		    has_landed_title = c_legio_xiii_gemina_restored
+		}
+
 		d_arcadia = {
 			OR = {
 				has_holder = no
@@ -1663,7 +1827,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_pontica
+		OR = {
+		    has_landed_title = c_legio_i_pontica
+		    has_landed_title = c_legio_i_pontica_restored
+		}
+
 		d_pontus_polemoniacus = {
 			OR = {
 				has_holder = no
@@ -1700,7 +1868,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iii_cyrenaica
+		OR = {
+		    has_landed_title = c_legio_iii_cyrenaica
+		    has_landed_title = c_legio_iii_cyrenaica_restored
+		}
+
 		d_arabia_magna = {
 			OR = {
 				has_holder = no
@@ -1737,7 +1909,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_armeniaca
+		OR = {
+		    has_landed_title = c_legio_i_armeniaca
+		    has_landed_title = c_legio_i_armeniaca_restored
+		}
+
 		d_syria = {
 			OR = {
 				has_holder = no
@@ -1774,7 +1950,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_traiana_fortis
+		OR = {
+		    has_landed_title = c_legio_ii_traiana_fortis
+		    has_landed_title = c_legio_ii_traiana_fortis_restored
+		}
+
 		d_alexandria = {
 			OR = {
 				has_holder = no
@@ -1811,7 +1991,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iv_scythia
+		OR = {
+		    has_landed_title = c_legio_iv_scythia
+		    has_landed_title = c_legio_iv_scythia_restored
+		}
+
 		d_syria_salutaris = {
 			OR = {
 				has_holder = no
@@ -1848,7 +2032,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_iovia
+		OR = {
+		    has_landed_title = c_legio_i_iovia
+		    has_landed_title = c_legio_i_iovia_restored
+		}
+
 		d_scythia_minor = {
 			OR = {
 				has_holder = no
@@ -1885,7 +2073,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_sala
+		OR = {
+		    has_landed_title = c_legio_sala
+		    has_landed_title = c_legio_sala_restored
+		}
+
 		d_mauria = {
 			OR = {
 				has_holder = no
@@ -1922,7 +2114,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_noricorum
+		OR = {
+		    has_landed_title = c_legio_i_noricorum
+		    has_landed_title = c_legio_i_noricorum_restored
+		}
+
 		d_noricum = {
 			OR = {
 				has_holder = no
@@ -1959,7 +2155,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_xiv_gemina
+		OR = {
+		    has_landed_title = c_legio_xiv_gemina
+		    has_landed_title = c_legio_xiv_gemina_restored
+		}
+
 		d_pannonia_superior = {
 			OR = {
 				has_holder = no
@@ -1996,7 +2196,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_i_adiutrix
+		OR = {
+		    has_landed_title = c_legio_i_adiutrix
+		    has_landed_title = c_legio_i_adiutrix_restored
+		}
+
 		d_pannonia_superior = {
 			OR = {
 				has_holder = no
@@ -2033,7 +2237,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_ii_adiutrix
+		OR = {
+		    has_landed_title = c_legio_ii_adiutrix
+		    has_landed_title = c_legio_ii_adiutrix_restored
+		}
+
 		d_pannonia_superior = {
 			OR = {
 				has_holder = no
@@ -2070,7 +2278,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_vi_herculia
+		OR = {
+		    has_landed_title = c_legio_vi_herculia
+		    has_landed_title = c_legio_vi_herculia_restored
+		}
+
 		d_pannonia_superior = {
 			OR = {
 				has_holder = no
@@ -2107,7 +2319,11 @@ character_event = {
 				}
 			}
 		}
-		has_landed_title = c_legio_iii_italica
+		OR = {
+		    has_landed_title = c_legio_iii_italica
+		    has_landed_title = c_legio_iii_italica_restored
+		}
+
 		k_raetia_noricum = {
 			OR = {
 				has_holder = no
@@ -2144,7 +2360,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_xx_valeria_victrix
+		OR = {
+		    has_landed_title = c_legio_xx_valeria_victrix
+		    has_landed_title = c_legio_xx_valeria_victrix_restored
+		}
+
 		k_england = {
 			OR = {
 				has_holder = no
@@ -2181,7 +2401,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_vi_victrix
+		OR = {
+		    has_landed_title = c_legio_vi_victrix
+		    has_landed_title = c_legio_vi_victrix_restored
+		}
+
 		k_england = {
 			OR = {
 				has_holder = no
@@ -2218,7 +2442,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_i_iulia_alpina
+		OR = {
+		    has_landed_title = c_legio_i_iulia_alpina
+		    has_landed_title = c_legio_i_iulia_alpina_restored
+		}
+
 		k_septem_provincae = {
 			OR = {
 				has_holder = no
@@ -2255,7 +2483,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_iii_iulia_alpina
+		OR = {
+		    has_landed_title = c_legio_iii_iulia_alpina
+		    has_landed_title = c_legio_iii_iulia_alpina_restored
+		}
+
 		k_septem_provincae = {
 			OR = {
 				has_holder = no
@@ -2292,7 +2524,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_i_minervia
+		OR = {
+		    has_landed_title = c_legio_i_minervia
+		    has_landed_title = c_legio_i_minervia_restored
+		}
+
 		k_germania_inferior = {
 			OR = {
 				has_holder = no
@@ -2329,7 +2565,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_xxx_ulpia_victrix
+		OR = {
+		    has_landed_title = c_legio_xxx_ulpia_victrix
+		    has_landed_title = c_legio_xxx_ulpia_victrix_restored
+		}
+
 		k_germania_inferior = {
 			OR = {
 				has_holder = no
@@ -2366,7 +2606,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_i_flavia_martis
+		OR = {
+		    has_landed_title = c_legio_i_flavia_martis
+		    has_landed_title = c_legio_i_flavia_martis_restored
+		}
+
 		k_germania_inferior = {
 			OR = {
 				has_holder = no
@@ -2403,7 +2647,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_xxii_primigenia
+		OR = {
+		    has_landed_title = c_legio_xxii_primigenia
+		    has_landed_title = c_legio_xxii_primigenia_restored
+		}
+
 		k_germania_inferior = {
 			OR = {
 				has_holder = no
@@ -2440,7 +2688,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_i_flavia_pacis
+		OR = {
+		    has_landed_title = c_legio_i_flavia_pacis
+		    has_landed_title = c_legio_i_flavia_pacis_restored
+		}
+
 		k_africa = {
 			OR = {
 				has_holder = no
@@ -2477,7 +2729,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_ii_flavia_virtuis
+		OR = {
+		    has_landed_title = c_legio_ii_flavia_virtuis
+		    has_landed_title = c_legio_ii_flavia_virtuis_restored
+		}
+
 		k_africa = {
 			OR = {
 				has_holder = no
@@ -2514,7 +2770,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_iii_flavia_salutis
+		OR = {
+		    has_landed_title = c_legio_iii_flavia_salutis
+		    has_landed_title = c_legio_iii_flavia_salutis_restored
+		}
+
 		k_africa = {
 			OR = {
 				has_holder = no
@@ -2551,7 +2811,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_xi_claudia
+		OR = {
+		    has_landed_title = c_legio_xi_claudia
+		    has_landed_title = c_legio_xi_claudia_restored
+		}
+
 		d_moesia_secunda = {
 			OR = {
 				has_holder = no
@@ -2588,7 +2852,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_iii_isaura
+		OR = {
+		    has_landed_title = c_legio_iii_isaura
+		    has_landed_title = c_legio_iii_isaura_restored
+		}
+
 		d_isauria = {
 			OR = {
 				has_holder = no
@@ -2625,7 +2893,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_i_parthica
+		OR = {
+		    has_landed_title = c_legio_i_parthica
+		    has_landed_title = c_legio_i_parthica_restored
+		}
+
 		d_osrhoene = {
 			OR = {
 				has_holder = no
@@ -2662,7 +2934,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_iii_parthica
+		OR = {
+		    has_landed_title = c_legio_iii_parthica
+		    has_landed_title = c_legio_iii_parthica_restored
+		}
+
 		d_osrhoene = {
 			OR = {
 				has_holder = no
@@ -2699,7 +2975,11 @@ character_event = {
 				}
 			}
 		} 
-		has_landed_title = c_legio_xvi_flavia_firma
+		OR = {
+		    has_landed_title = c_legio_xvi_flavia_firma
+		    has_landed_title = c_legio_xvi_flavia_firma_restored
+		}
+
 		d_syria_salutaris = {
 			OR = {
 				has_holder = no
