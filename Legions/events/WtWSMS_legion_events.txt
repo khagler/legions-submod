@@ -2075,7 +2075,6 @@ character_event = {
 		}
 		OR = {
 		    has_landed_title = c_legio_sala
-		    has_landed_title = c_legio_sala_restored
 		}
 
 		d_mauria = {

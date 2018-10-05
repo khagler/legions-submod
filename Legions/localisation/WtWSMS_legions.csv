@@ -196,9 +196,7 @@ c_legio_ii_traiana_fortis_restored;Legio II Traiana Fortis;Legio II Traiana Fort
 c_legio_ii_traiana_fortis_adj;Legio II Traiana Fortisan;Legio II Traiana Fortisan;;;;;;;;;;;;x
 c_legio_ii_traiana_fortis_restored_adj;Legio II Traiana Fortisan;Legio II Traiana Fortisan;;;;;;;;;;;;x
 c_legio_sala;Equites Colonia;Equites Colonia;;;;;;;;;;;;x
-c_legio_sala_restored;Equites Colonia;Equites Colonia;;;;;;;;;;;;x
 c_legio_sala_adj;Equites Colonia;Equites Colonia;;;;;;;;;;;;x
-c_legio_sala_restored_adj;Equites Colonia;Equites Colonia;;;;;;;;;;;;x
 c_legio_xx_valeria_victrix;Legio XX Valeria Victrix;Legio XX Valeria Victrix;;;;;;;;;;;;x
 c_legio_xx_valeria_victrix_restored;Legio XX Valeria Victrix;Legio XX Valeria Victrix;;;;;;;;;;;;x
 c_legio_xx_valeria_victrix_adj;Legio XX Valeria Victrixan;Legio XX Valeria Victrixan;;;;;;;;;;;;x
@@ -538,8 +536,6 @@ restore_legio_iv_scythia;Restore the Legio IV Scythia;;;;;;;;;;;;;x
 restore_legio_iv_scythia_desc;You can end the legion's decay and restore it to full strength.;;;;;;;;;;;;;x
 restore_legio_i_iovia;Restore the Legio I Iovia;;;;;;;;;;;;;x
 restore_legio_i_iovia_desc;You can end the legion's decay and restore it to full strength.;;;;;;;;;;;;;x
-restore_legio_sala;Restore the Equites Colonia;;;;;;;;;;;;;x
-restore_legio_sala_desc;You can end the legion's decay and restore it to full strength.;;;;;;;;;;;;;x
 restore_legio_xx_valeria_victrix;Restore the Legio XX Valeria Victrix;;;;;;;;;;;;;x
 restore_legio_xx_valeria_victrix_desc;You can end the legion's decay and restore it to full strength.;;;;;;;;;;;;;x
 restore_legio_vi_victrix;Restore the Legio VI Victrix;;;;;;;;;;;;;x
