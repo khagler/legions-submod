@@ -132,6 +132,7 @@ roman_legion_title_trigger = {
 		title = c_legio_i_noricorum
 		title = c_legio_ii_italica
 		title = c_legio_i_italica
+		title = c_legio_i_italica_restored
 		title = c_legio_x_gemina
 		title = c_legio_xii_fulminata
 		title = c_legio_i_flavia_constantia

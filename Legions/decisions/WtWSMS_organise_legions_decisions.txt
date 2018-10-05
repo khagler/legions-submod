@@ -100,6 +100,65 @@ decisions = {
 		}
 	}
 	
+	restore_legio_i_italica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_italica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_italica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_italica_restored status = yes }
+                c_legio_i_italica_restored = { copy_title_history = c_legio_i_italica }
+                c_legio_i_italica_restored = { copy_title_laws = c_legio_i_italica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_italica
+			        }
+                    c_legio_i_italica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_italica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	organize_legio_ii_italica = {
 		is_high_prio = yes
 		only_playable = yes

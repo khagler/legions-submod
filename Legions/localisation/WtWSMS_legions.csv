@@ -39,6 +39,8 @@ c_legio_x_gemina;Legio X Gemina;Legio X Gemina;;;;;;;;;;;;x
 c_legio_x_gemina_adj;Legio X Geminan;Legio X Geminan;;;;;;;;;;;;x
 c_legio_i_italica;Legio I Italica;Legio I Italica;;;;;;;;;;;;x
 c_legio_i_italica_adj;Legio I Italican;Legio I Italica;;;;;;;;;;;;x
+c_legio_i_italica_restored;Legio I Italica;Legio I Italica;;;;;;;;;;;;x
+c_legio_i_italica_restored_adj;Legio I Italican;Legio I Italica;;;;;;;;;;;;x
 c_legio_ii_italica;Legio II Italica;Legio II Italica;;;;;;;;;;;;x
 c_legio_ii_italica_adj;Legio II Italican;Legio II Italica;;;;;;;;;;;;x
 c_legio_i_noricorum;Legio I Noricorum;Legio I Noricorum;;;;;;;;;;;;x
@@ -296,6 +298,8 @@ organize_legio_ii_parthica;Organize the Legio II Parthica;Organiser la Legio II 
 organize_legio_ii_parthica_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
 organize_legio_vi_parthica;Organize the Legio VI Parthica;Organiser la Legio VI Parthica;;;;;;;;;;;;x
 organize_legio_vi_parthica_desc;You can re-organize and vassalize the legion of this historical Roman province.;Vous pouvez réorganiser et vassaliser la légion de cette province Romaine historique;;;;;;;;;;;;x
+restore_legio_i_italica;Restore the Legio I Italica;;;;;;;;;;;;;x
+restore_legio_i_italica_desc;You can end the legion's decay and restore it to full strength.;;;;;;;;;;;;;x
 #Legion events;Événements des légions;;;;;;;;;;;;;x
 EVTNAMELEG.2;[From.PrimaryTitle.GetName] organized;[From.PrimaryTitle.GetName] organisée;;;;;;;;;;;;x
 EVTDESCLEG.2;You have re-organized and vassalized the [From.PrimaryTitle.GetName] of the historical Roman province under your command. May their mighty power help you fight off the barbarians!;Vous avez réorganisé et vassalisé la [From.PrimaryTitle.GetName] de la province romaine sous votre contrôle. Que leur puissance vous aide à repousser les barbares!;;;;;;;;;;;;x
@@ -304,3 +308,6 @@ EVTNAMELEG.3;[From.PrimaryTitle.GetName] disbanding;[From.PrimaryTitle.GetName] 
 EVTDESCLEG.3;Without the authority of a Roman liege controlling their historical province, the [From.PrimaryTitle.GetName] has lost its roots and was forced to disbanded.;Sans l'autorité d'un suzerain romain contrôlant leur province historique, la [From.PrimaryTitle.GetName] a perdu ses racines et a été forcée de se dissoudre.;;;;;;;;;;;;x
 EVTOPTALEG.3;One day I shall reconquer these lands...;Un jour je vais reconquérir ces territoires...;;;;;;;;;;;;x
 EVTOPTBLEG.3;Fine, I had no use for that Roman legacy.;Bien, je n'avais aucune utilité de cet héritage Romain.;;;;;;;;;;;;x
+EVTNAMELEG.5;[From.PrimaryTitle.GetName] restored;;;;;;;;;;;;;x
+EVTDESCLEG.5;You have restored the [From.PrimaryTitle.GetName] of the historical Roman province under your command to full strength and ended its decay. Roman power is once again on the rise!;;;;;;;;;;;;;x
+EVTOPTALEG.5;For the glory of Rome!;Pour la gloire de Rome !;;;;;;;;;;;;x

@@ -1,0 +1,4 @@
+20.1.1={
+	liege = k_dalmatia
+	active = no
+}
