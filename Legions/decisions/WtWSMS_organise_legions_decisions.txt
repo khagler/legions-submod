@@ -51,6 +51,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_x_gemina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_x_gemina = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_x_gemina_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_x_gemina_restored status = yes }
+                c_legio_x_gemina_restored = { copy_title_history = c_legio_x_gemina }
+                c_legio_x_gemina_restored = { copy_title_laws = c_legio_x_gemina }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_x_gemina
+			        }
+                    c_legio_x_gemina_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_x_gemina = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_i_italica = {
 		is_high_prio = yes
@@ -207,6 +266,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_ii_italica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_italica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_italica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_italica_restored status = yes }
+                c_legio_ii_italica_restored = { copy_title_history = c_legio_ii_italica }
+                c_legio_ii_italica_restored = { copy_title_laws = c_legio_ii_italica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_italica
+			        }
+                    c_legio_ii_italica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_italica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_i_noricorum = {
 		is_high_prio = yes
 		only_playable = yes
@@ -247,6 +365,65 @@ decisions = {
 					set_defacto_liege = ROOT
 					character_event = { id = LEG.1 }
 				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_i_noricorum = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_noricorum = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_noricorum_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_noricorum_restored status = yes }
+                c_legio_i_noricorum_restored = { copy_title_history = c_legio_i_noricorum }
+                c_legio_i_noricorum_restored = { copy_title_laws = c_legio_i_noricorum }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_noricorum
+			        }
+                    c_legio_i_noricorum_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_noricorum = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
 			}
 		}
 		
@@ -302,6 +479,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_viii_augusta = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_viii_augusta = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_viii_augusta_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_viii_augusta_restored status = yes }
+                c_legio_viii_augusta_restored = { copy_title_history = c_legio_viii_augusta }
+                c_legio_viii_augusta_restored = { copy_title_laws = c_legio_viii_augusta }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_viii_augusta
+			        }
+                    c_legio_viii_augusta_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_viii_augusta = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_x_fretensis = {
 		is_high_prio = yes
 		only_playable = yes
@@ -344,6 +580,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_x_fretensis = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_x_fretensis = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_x_fretensis_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_x_fretensis_restored status = yes }
+                c_legio_x_fretensis_restored = { copy_title_history = c_legio_x_fretensis }
+                c_legio_x_fretensis_restored = { copy_title_laws = c_legio_x_fretensis }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_x_fretensis
+			        }
+                    c_legio_x_fretensis_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_x_fretensis = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -396,6 +691,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_iii_gallica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_gallica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_gallica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_gallica_restored status = yes }
+                c_legio_iii_gallica_restored = { copy_title_history = c_legio_iii_gallica }
+                c_legio_iii_gallica_restored = { copy_title_laws = c_legio_iii_gallica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_gallica
+			        }
+                    c_legio_iii_gallica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_gallica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_vii_gemina = {
 		is_high_prio = yes
 		only_playable = yes
@@ -438,6 +792,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_vii_gemina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_vii_gemina = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_vii_gemina_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_vii_gemina_restored status = yes }
+                c_legio_vii_gemina_restored = { copy_title_history = c_legio_vii_gemina }
+                c_legio_vii_gemina_restored = { copy_title_laws = c_legio_vii_gemina }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_vii_gemina
+			        }
+                    c_legio_vii_gemina_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_vii_gemina = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -490,6 +903,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_ii_augusta = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_augusta = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_augusta_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_augusta_restored status = yes }
+                c_legio_ii_augusta_restored = { copy_title_history = c_legio_ii_augusta }
+                c_legio_ii_augusta_restored = { copy_title_laws = c_legio_ii_augusta }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_augusta
+			        }
+                    c_legio_ii_augusta_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_augusta = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_vi_ferrata = {
 		is_high_prio = yes
 		only_playable = yes
@@ -532,6 +1004,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_vi_ferrata = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_vi_ferrata = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_vi_ferrata_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_vi_ferrata_restored status = yes }
+                c_legio_vi_ferrata_restored = { copy_title_history = c_legio_vi_ferrata }
+                c_legio_vi_ferrata_restored = { copy_title_laws = c_legio_vi_ferrata }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_vi_ferrata
+			        }
+                    c_legio_vi_ferrata_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_vi_ferrata = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -584,6 +1115,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_v_iovia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_v_iovia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_v_iovia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_v_iovia_restored status = yes }
+                c_legio_v_iovia_restored = { copy_title_history = c_legio_v_iovia }
+                c_legio_v_iovia_restored = { copy_title_laws = c_legio_v_iovia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_v_iovia
+			        }
+                    c_legio_v_iovia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_v_iovia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_iv_flavia_felix = {
 		is_high_prio = yes
 		only_playable = yes
@@ -626,6 +1216,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_iv_flavia_felix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iv_flavia_felix = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iv_flavia_felix_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iv_flavia_felix_restored status = yes }
+                c_legio_iv_flavia_felix_restored = { copy_title_history = c_legio_iv_flavia_felix }
+                c_legio_iv_flavia_felix_restored = { copy_title_laws = c_legio_iv_flavia_felix }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iv_flavia_felix
+			        }
+                    c_legio_iv_flavia_felix_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iv_flavia_felix = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -678,6 +1327,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_v_macedonica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_v_macedonica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_v_macedonica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_v_macedonica_restored status = yes }
+                c_legio_v_macedonica_restored = { copy_title_history = c_legio_v_macedonica }
+                c_legio_v_macedonica_restored = { copy_title_laws = c_legio_v_macedonica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_v_macedonica
+			        }
+                    c_legio_v_macedonica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_v_macedonica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_iii_augusta = {
 		is_high_prio = yes
 		only_playable = yes
@@ -720,6 +1428,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_iii_augusta = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_augusta = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_augusta_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_augusta_restored status = yes }
+                c_legio_iii_augusta_restored = { copy_title_history = c_legio_iii_augusta }
+                c_legio_iii_augusta_restored = { copy_title_laws = c_legio_iii_augusta }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_augusta
+			        }
+                    c_legio_iii_augusta_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_augusta = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -771,6 +1538,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_i_flavia_constantia_gallicana = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_flavia_constantia_gallicana = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_flavia_constantia_gallicana_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_flavia_constantia_gallicana_restored status = yes }
+                c_legio_i_flavia_constantia_gallicana_restored = { copy_title_history = c_legio_i_flavia_constantia_gallicana }
+                c_legio_i_flavia_constantia_gallicana_restored = { copy_title_laws = c_legio_i_flavia_constantia_gallicana }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_flavia_constantia_gallicana
+			        }
+                    c_legio_i_flavia_constantia_gallicana_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_flavia_constantia_gallicana = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_ii_britannica = {
 		is_high_prio = yes
@@ -818,6 +1644,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_ii_britannica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_britannica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_britannica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_britannica_restored status = yes }
+                c_legio_ii_britannica_restored = { copy_title_history = c_legio_ii_britannica }
+                c_legio_ii_britannica_restored = { copy_title_laws = c_legio_ii_britannica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_britannica
+			        }
+                    c_legio_ii_britannica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_britannica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_xii_fulminata = {
 		is_high_prio = yes
@@ -861,6 +1746,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_xii_fulminata = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xii_fulminata = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xii_fulminata_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xii_fulminata_restored status = yes }
+                c_legio_xii_fulminata_restored = { copy_title_history = c_legio_xii_fulminata }
+                c_legio_xii_fulminata_restored = { copy_title_laws = c_legio_xii_fulminata }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xii_fulminata
+			        }
+                    c_legio_xii_fulminata_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xii_fulminata = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -915,6 +1859,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_i_flavia_constantia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_flavia_constantia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_flavia_constantia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_flavia_constantia_restored status = yes }
+                c_legio_i_flavia_constantia_restored = { copy_title_history = c_legio_i_flavia_constantia }
+                c_legio_i_flavia_constantia_restored = { copy_title_laws = c_legio_i_flavia_constantia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_flavia_constantia
+			        }
+                    c_legio_i_flavia_constantia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_flavia_constantia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_ii_flavia_constantia = {
 		is_high_prio = yes
@@ -958,6 +1961,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_ii_flavia_constantia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_flavia_constantia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_flavia_constantia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_flavia_constantia_restored status = yes }
+                c_legio_ii_flavia_constantia_restored = { copy_title_history = c_legio_ii_flavia_constantia }
+                c_legio_ii_flavia_constantia_restored = { copy_title_laws = c_legio_ii_flavia_constantia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_flavia_constantia
+			        }
+                    c_legio_ii_flavia_constantia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_flavia_constantia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1012,6 +2074,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_i_isaura_sagittaria = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_isaura_sagittaria = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_isaura_sagittaria_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_isaura_sagittaria_restored status = yes }
+                c_legio_i_isaura_sagittaria_restored = { copy_title_history = c_legio_i_isaura_sagittaria }
+                c_legio_i_isaura_sagittaria_restored = { copy_title_laws = c_legio_i_isaura_sagittaria }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_isaura_sagittaria
+			        }
+                    c_legio_i_isaura_sagittaria_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_isaura_sagittaria = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_ii_herculia = {
 		is_high_prio = yes
@@ -1055,6 +2176,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_ii_herculia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_herculia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_herculia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_herculia_restored status = yes }
+                c_legio_ii_herculia_restored = { copy_title_history = c_legio_ii_herculia }
+                c_legio_ii_herculia_restored = { copy_title_laws = c_legio_ii_herculia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_herculia
+			        }
+                    c_legio_ii_herculia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_herculia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1109,6 +2289,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_ii_isaura = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_isaura = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_isaura_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_isaura_restored status = yes }
+                c_legio_ii_isaura_restored = { copy_title_history = c_legio_ii_isaura }
+                c_legio_ii_isaura_restored = { copy_title_laws = c_legio_ii_isaura }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_isaura
+			        }
+                    c_legio_ii_isaura_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_isaura = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_iii_diocletiana = {
 		is_high_prio = yes
@@ -1152,6 +2391,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_iii_diocletiana = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_diocletiana = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_diocletiana_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_diocletiana_restored status = yes }
+                c_legio_iii_diocletiana_restored = { copy_title_history = c_legio_iii_diocletiana }
+                c_legio_iii_diocletiana_restored = { copy_title_laws = c_legio_iii_diocletiana }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_diocletiana
+			        }
+                    c_legio_iii_diocletiana_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_diocletiana = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1203,6 +2501,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_iv_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iv_parthica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iv_parthica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iv_parthica_restored status = yes }
+                c_legio_iv_parthica_restored = { copy_title_history = c_legio_iv_parthica }
+                c_legio_iv_parthica_restored = { copy_title_laws = c_legio_iv_parthica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iv_parthica
+			        }
+                    c_legio_iv_parthica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iv_parthica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_iv_italica = {
 		is_high_prio = yes
@@ -1246,6 +2603,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_iv_italica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iv_italica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iv_italica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iv_italica_restored status = yes }
+                c_legio_iv_italica_restored = { copy_title_history = c_legio_iv_italica }
+                c_legio_iv_italica_restored = { copy_title_laws = c_legio_iv_italica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iv_italica
+			        }
+                    c_legio_iv_italica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iv_italica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1297,6 +2713,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_ii_iulia_alpina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_iulia_alpina = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_iulia_alpina_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_iulia_alpina_restored status = yes }
+                c_legio_ii_iulia_alpina_restored = { copy_title_history = c_legio_ii_iulia_alpina }
+                c_legio_ii_iulia_alpina_restored = { copy_title_laws = c_legio_ii_iulia_alpina }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_iulia_alpina
+			        }
+                    c_legio_ii_iulia_alpina_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_iulia_alpina = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_iii_herculea = {
 		is_high_prio = yes
@@ -1340,6 +2815,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_iii_herculea = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_herculea = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_herculea_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_herculea_restored status = yes }
+                c_legio_iii_herculea_restored = { copy_title_history = c_legio_iii_herculea }
+                c_legio_iii_herculea_restored = { copy_title_laws = c_legio_iii_herculea }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_herculea
+			        }
+                    c_legio_iii_herculea_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_herculea = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1391,6 +2925,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_iv_martia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iv_martia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iv_martia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iv_martia_restored status = yes }
+                c_legio_iv_martia_restored = { copy_title_history = c_legio_iv_martia }
+                c_legio_iv_martia_restored = { copy_title_laws = c_legio_iv_martia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iv_martia
+			        }
+                    c_legio_iv_martia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iv_martia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_ii_felix_valentis_thebaeorum = {
 		is_high_prio = yes
@@ -1434,6 +3027,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_ii_felix_valentis_thebaeorum = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_felix_valentis_thebaeorum = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_felix_valentis_thebaeorum_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_felix_valentis_thebaeorum_restored status = yes }
+                c_legio_ii_felix_valentis_thebaeorum_restored = { copy_title_history = c_legio_ii_felix_valentis_thebaeorum }
+                c_legio_ii_felix_valentis_thebaeorum_restored = { copy_title_laws = c_legio_ii_felix_valentis_thebaeorum }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_felix_valentis_thebaeorum
+			        }
+                    c_legio_ii_felix_valentis_thebaeorum_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_felix_valentis_thebaeorum = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1488,6 +3140,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_i_flavia_theodosiana = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_flavia_theodosiana = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_flavia_theodosiana_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_flavia_theodosiana_restored status = yes }
+                c_legio_i_flavia_theodosiana_restored = { copy_title_history = c_legio_i_flavia_theodosiana }
+                c_legio_i_flavia_theodosiana_restored = { copy_title_laws = c_legio_i_flavia_theodosiana }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_flavia_theodosiana
+			        }
+                    c_legio_i_flavia_theodosiana_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_flavia_theodosiana = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_i_maximiana_thaebanorum = {
 		is_high_prio = yes
@@ -1531,6 +3242,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_i_maximiana_thaebanorum = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_maximiana_thaebanorum = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_maximiana_thaebanorum_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_maximiana_thaebanorum_restored status = yes }
+                c_legio_i_maximiana_thaebanorum_restored = { copy_title_history = c_legio_i_maximiana_thaebanorum }
+                c_legio_i_maximiana_thaebanorum_restored = { copy_title_laws = c_legio_i_maximiana_thaebanorum }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_maximiana_thaebanorum
+			        }
+                    c_legio_i_maximiana_thaebanorum_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_maximiana_thaebanorum = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1582,6 +3352,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_xv_apollinaris = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xv_apollinaris = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xv_apollinaris_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xv_apollinaris_restored status = yes }
+                c_legio_xv_apollinaris_restored = { copy_title_history = c_legio_xv_apollinaris }
+                c_legio_xv_apollinaris_restored = { copy_title_laws = c_legio_xv_apollinaris }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xv_apollinaris
+			        }
+                    c_legio_xv_apollinaris_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xv_apollinaris = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_i_illyricorum = {
 		is_high_prio = yes
@@ -1625,6 +3454,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_i_illyricorum = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_illyricorum = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_illyricorum_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_illyricorum_restored status = yes }
+                c_legio_i_illyricorum_restored = { copy_title_history = c_legio_i_illyricorum }
+                c_legio_i_illyricorum_restored = { copy_title_laws = c_legio_i_illyricorum }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_illyricorum
+			        }
+                    c_legio_i_illyricorum_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_illyricorum = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1676,6 +3564,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_xiii_gemina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xiii_gemina = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xiii_gemina_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xiii_gemina_restored status = yes }
+                c_legio_xiii_gemina_restored = { copy_title_history = c_legio_xiii_gemina }
+                c_legio_xiii_gemina_restored = { copy_title_laws = c_legio_xiii_gemina }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xiii_gemina
+			        }
+                    c_legio_xiii_gemina_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xiii_gemina = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_i_pontica = {
 		is_high_prio = yes
@@ -1719,6 +3666,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+ 
+	restore_legio_i_pontica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_pontica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_pontica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_pontica_restored status = yes }
+                c_legio_i_pontica_restored = { copy_title_history = c_legio_i_pontica }
+                c_legio_i_pontica_restored = { copy_title_laws = c_legio_i_pontica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_pontica
+			        }
+                    c_legio_i_pontica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_pontica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1770,6 +3776,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_iii_cyrenaica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_cyrenaica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_cyrenaica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_cyrenaica_restored status = yes }
+                c_legio_iii_cyrenaica_restored = { copy_title_history = c_legio_iii_cyrenaica }
+                c_legio_iii_cyrenaica_restored = { copy_title_laws = c_legio_iii_cyrenaica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_cyrenaica
+			        }
+                    c_legio_iii_cyrenaica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_cyrenaica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_i_armeniaca = {
 		is_high_prio = yes
@@ -1813,6 +3878,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_i_armeniaca = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_armeniaca = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_armeniaca_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_armeniaca_restored status = yes }
+                c_legio_i_armeniaca_restored = { copy_title_history = c_legio_i_armeniaca }
+                c_legio_i_armeniaca_restored = { copy_title_laws = c_legio_i_armeniaca }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_armeniaca
+			        }
+                    c_legio_i_armeniaca_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_armeniaca = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1864,6 +3988,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_ii_traiana_fortis = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_traiana_fortis = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_traiana_fortis_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_traiana_fortis_restored status = yes }
+                c_legio_ii_traiana_fortis_restored = { copy_title_history = c_legio_ii_traiana_fortis }
+                c_legio_ii_traiana_fortis_restored = { copy_title_laws = c_legio_ii_traiana_fortis }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_traiana_fortis
+			        }
+                    c_legio_ii_traiana_fortis_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_traiana_fortis = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_iv_scythia = {
 		is_high_prio = yes
@@ -1911,6 +4094,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_iv_scythia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iv_scythia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iv_scythia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iv_scythia_restored status = yes }
+                c_legio_iv_scythia_restored = { copy_title_history = c_legio_iv_scythia }
+                c_legio_iv_scythia_restored = { copy_title_laws = c_legio_iv_scythia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iv_scythia
+			        }
+                    c_legio_iv_scythia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iv_scythia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_i_iovia = {
 		is_high_prio = yes
@@ -1954,6 +4196,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_i_iovia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_iovia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_iovia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_iovia_restored status = yes }
+                c_legio_i_iovia_restored = { copy_title_history = c_legio_i_iovia }
+                c_legio_i_iovia_restored = { copy_title_laws = c_legio_i_iovia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_iovia
+			        }
+                    c_legio_i_iovia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_iovia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2010,6 +4311,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_sala = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_sala = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_sala_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_sala_restored status = yes }
+                c_legio_sala_restored = { copy_title_history = c_legio_sala }
+                c_legio_sala_restored = { copy_title_laws = c_legio_sala }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_sala
+			        }
+                    c_legio_sala_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_sala = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_xx_valeria_victrix = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2056,6 +4416,65 @@ decisions = {
 		}
 	}	
 
+	restore_legio_xx_valeria_victrix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xx_valeria_victrix = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xx_valeria_victrix_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xx_valeria_victrix_restored status = yes }
+                c_legio_xx_valeria_victrix_restored = { copy_title_history = c_legio_xx_valeria_victrix }
+                c_legio_xx_valeria_victrix_restored = { copy_title_laws = c_legio_xx_valeria_victrix }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xx_valeria_victrix
+			        }
+                    c_legio_xx_valeria_victrix_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xx_valeria_victrix = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_vi_victrix = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2097,6 +4516,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_vi_victrix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_vi_victrix = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_vi_victrix_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_vi_victrix_restored status = yes }
+                c_legio_vi_victrix_restored = { copy_title_history = c_legio_vi_victrix }
+                c_legio_vi_victrix_restored = { copy_title_laws = c_legio_vi_victrix }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_vi_victrix
+			        }
+                    c_legio_vi_victrix_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_vi_victrix = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2148,6 +4626,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_i_iulia_alpina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_iulia_alpina = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_iulia_alpina_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_iulia_alpina_restored status = yes }
+                c_legio_i_iulia_alpina_restored = { copy_title_history = c_legio_i_iulia_alpina }
+                c_legio_i_iulia_alpina_restored = { copy_title_laws = c_legio_i_iulia_alpina }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_iulia_alpina
+			        }
+                    c_legio_i_iulia_alpina_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_iulia_alpina = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_iii_iulia_alpina = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2189,6 +4726,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_iii_iulia_alpina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_iulia_alpina = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_iulia_alpina_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_iulia_alpina_restored status = yes }
+                c_legio_iii_iulia_alpina_restored = { copy_title_history = c_legio_iii_iulia_alpina }
+                c_legio_iii_iulia_alpina_restored = { copy_title_laws = c_legio_iii_iulia_alpina }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_iulia_alpina
+			        }
+                    c_legio_iii_iulia_alpina_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_iulia_alpina = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2240,6 +4836,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_i_minervia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_minervia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_minervia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_minervia_restored status = yes }
+                c_legio_i_minervia_restored = { copy_title_history = c_legio_i_minervia }
+                c_legio_i_minervia_restored = { copy_title_laws = c_legio_i_minervia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_minervia
+			        }
+                    c_legio_i_minervia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_minervia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_xxx_ulpia_victrix = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2281,6 +4936,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_xxx_ulpia_victrix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xxx_ulpia_victrix = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xxx_ulpia_victrix_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xxx_ulpia_victrix_restored status = yes }
+                c_legio_xxx_ulpia_victrix_restored = { copy_title_history = c_legio_xxx_ulpia_victrix }
+                c_legio_xxx_ulpia_victrix_restored = { copy_title_laws = c_legio_xxx_ulpia_victrix }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xxx_ulpia_victrix
+			        }
+                    c_legio_xxx_ulpia_victrix_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xxx_ulpia_victrix = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2332,6 +5046,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_i_flavia_martis = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_flavia_martis = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_flavia_martis_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_flavia_martis_restored status = yes }
+                c_legio_i_flavia_martis_restored = { copy_title_history = c_legio_i_flavia_martis }
+                c_legio_i_flavia_martis_restored = { copy_title_laws = c_legio_i_flavia_martis }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_flavia_martis
+			        }
+                    c_legio_i_flavia_martis_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_flavia_martis = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_xxii_primigenia = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2373,6 +5146,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_xxii_primigenia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xxii_primigenia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xxii_primigenia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xxii_primigenia_restored status = yes }
+                c_legio_xxii_primigenia_restored = { copy_title_history = c_legio_xxii_primigenia }
+                c_legio_xxii_primigenia_restored = { copy_title_laws = c_legio_xxii_primigenia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xxii_primigenia
+			        }
+                    c_legio_xxii_primigenia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xxii_primigenia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2424,6 +5256,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_i_flavia_pacis = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_flavia_pacis = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_flavia_pacis_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_flavia_pacis_restored status = yes }
+                c_legio_i_flavia_pacis_restored = { copy_title_history = c_legio_i_flavia_pacis }
+                c_legio_i_flavia_pacis_restored = { copy_title_laws = c_legio_i_flavia_pacis }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_flavia_pacis
+			        }
+                    c_legio_i_flavia_pacis_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_flavia_pacis = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_ii_flavia_virtuis = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2465,6 +5356,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_ii_flavia_virtuis = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_flavia_virtuis = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_flavia_virtuis_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_flavia_virtuis_restored status = yes }
+                c_legio_ii_flavia_virtuis_restored = { copy_title_history = c_legio_ii_flavia_virtuis }
+                c_legio_ii_flavia_virtuis_restored = { copy_title_laws = c_legio_ii_flavia_virtuis }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_flavia_virtuis
+			        }
+                    c_legio_ii_flavia_virtuis_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_flavia_virtuis = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2516,6 +5466,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_iii_flavia_salutis = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_flavia_salutis = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_flavia_salutis_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_flavia_salutis_restored status = yes }
+                c_legio_iii_flavia_salutis_restored = { copy_title_history = c_legio_iii_flavia_salutis }
+                c_legio_iii_flavia_salutis_restored = { copy_title_laws = c_legio_iii_flavia_salutis }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_flavia_salutis
+			        }
+                    c_legio_iii_flavia_salutis_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_flavia_salutis = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_iii_italica = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2562,6 +5571,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_iii_italica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_italica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_italica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_italica_restored status = yes }
+                c_legio_iii_italica_restored = { copy_title_history = c_legio_iii_italica }
+                c_legio_iii_italica_restored = { copy_title_laws = c_legio_iii_italica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_italica
+			        }
+                    c_legio_iii_italica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_italica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_xiv_gemina = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2601,6 +5669,65 @@ decisions = {
 					set_defacto_liege = ROOT
 					character_event = { id = LEG.1 }
 				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_xiv_gemina = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xiv_gemina = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xiv_gemina_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xiv_gemina_restored status = yes }
+                c_legio_xiv_gemina_restored = { copy_title_history = c_legio_xiv_gemina }
+                c_legio_xiv_gemina_restored = { copy_title_laws = c_legio_xiv_gemina }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xiv_gemina
+			        }
+                    c_legio_xiv_gemina_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xiv_gemina = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
 			}
 		}
 		
@@ -2656,6 +5783,65 @@ decisions = {
 		}
 	}
 
+	restore_legio_i_adiutrix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_adiutrix = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_adiutrix_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_adiutrix_restored status = yes }
+                c_legio_i_adiutrix_restored = { copy_title_history = c_legio_i_adiutrix }
+                c_legio_i_adiutrix_restored = { copy_title_laws = c_legio_i_adiutrix }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_adiutrix
+			        }
+                    c_legio_i_adiutrix_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_adiutrix = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	organize_legio_ii_adiutrix = {
 		is_high_prio = yes
 		only_playable = yes
@@ -2695,6 +5881,65 @@ decisions = {
 					set_defacto_liege = ROOT
 					character_event = { id = LEG.1 }
 				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_ii_adiutrix = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_adiutrix = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_adiutrix_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_adiutrix_restored status = yes }
+                c_legio_ii_adiutrix_restored = { copy_title_history = c_legio_ii_adiutrix }
+                c_legio_ii_adiutrix_restored = { copy_title_laws = c_legio_ii_adiutrix }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_adiutrix
+			        }
+                    c_legio_ii_adiutrix_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_adiutrix = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
 			}
 		}
 		
@@ -2749,6 +5994,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_vi_herculia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_vi_herculia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_vi_herculia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_vi_herculia_restored status = yes }
+                c_legio_vi_herculia_restored = { copy_title_history = c_legio_vi_herculia }
+                c_legio_vi_herculia_restored = { copy_title_laws = c_legio_vi_herculia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_vi_herculia
+			        }
+                    c_legio_vi_herculia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_vi_herculia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_xi_claudia = {
 		is_high_prio = yes
@@ -2791,6 +6095,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_xi_claudia = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xi_claudia = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xi_claudia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xi_claudia_restored status = yes }
+                c_legio_xi_claudia_restored = { copy_title_history = c_legio_xi_claudia }
+                c_legio_xi_claudia_restored = { copy_title_laws = c_legio_xi_claudia }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xi_claudia
+			        }
+                    c_legio_xi_claudia_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xi_claudia = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2844,6 +6207,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_iii_isaura = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_isaura = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_isaura_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_isaura_restored status = yes }
+                c_legio_iii_isaura_restored = { copy_title_history = c_legio_iii_isaura }
+                c_legio_iii_isaura_restored = { copy_title_laws = c_legio_iii_isaura }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_isaura
+			        }
+                    c_legio_iii_isaura_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_isaura = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_xvi_flavia_firma = {
 		is_high_prio = yes
@@ -2886,6 +6308,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_xvi_flavia_firma = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_xvi_flavia_firma = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_xvi_flavia_firma_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_xvi_flavia_firma_restored status = yes }
+                c_legio_xvi_flavia_firma_restored = { copy_title_history = c_legio_xvi_flavia_firma }
+                c_legio_xvi_flavia_firma_restored = { copy_title_laws = c_legio_xvi_flavia_firma }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_xvi_flavia_firma
+			        }
+                    c_legio_xvi_flavia_firma_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_xvi_flavia_firma = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2936,6 +6417,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_i_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_i_parthica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_i_parthica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_i_parthica_restored status = yes }
+                c_legio_i_parthica_restored = { copy_title_history = c_legio_i_parthica }
+                c_legio_i_parthica_restored = { copy_title_laws = c_legio_i_parthica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_i_parthica
+			        }
+                    c_legio_i_parthica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_i_parthica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_iii_parthica = {
 		is_high_prio = yes
@@ -2978,6 +6518,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_iii_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_iii_parthica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_iii_parthica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_iii_parthica_restored status = yes }
+                c_legio_iii_parthica_restored = { copy_title_history = c_legio_iii_parthica }
+                c_legio_iii_parthica_restored = { copy_title_laws = c_legio_iii_parthica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_iii_parthica
+			        }
+                    c_legio_iii_parthica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_iii_parthica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -3028,6 +6627,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_ii_armeniaca = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_armeniaca = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_armeniaca_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_armeniaca_restored status = yes }
+                c_legio_ii_armeniaca_restored = { copy_title_history = c_legio_ii_armeniaca }
+                c_legio_ii_armeniaca_restored = { copy_title_laws = c_legio_ii_armeniaca }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_armeniaca
+			        }
+                    c_legio_ii_armeniaca_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_armeniaca = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_ii_parthica = {
 		is_high_prio = yes
@@ -3074,6 +6732,65 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	restore_legio_ii_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_ii_parthica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_ii_parthica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_ii_parthica_restored status = yes }
+                c_legio_ii_parthica_restored = { copy_title_history = c_legio_ii_parthica }
+                c_legio_ii_parthica_restored = { copy_title_laws = c_legio_ii_parthica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_ii_parthica
+			        }
+                    c_legio_ii_parthica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_ii_parthica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	organize_legio_vi_parthica = {
 		is_high_prio = yes
@@ -3116,6 +6833,65 @@ decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_legio_vi_parthica = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			has_romance_culture_trigger = yes
+			prisoner = no
+			age = 16
+			has_landed_title = e_roman_empire
+			realm_size = 1200
+            c_legio_vi_parthica = {
+                holder_scope = {
+                    is_liege_or_above = ROOT
+                }
+            }
+			NOT = { 
+				c_legio_vi_parthica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			hidden_tooltip = {
+                activate_title = { title = c_legio_vi_parthica_restored status = yes }
+                c_legio_vi_parthica_restored = { copy_title_history = c_legio_vi_parthica }
+                c_legio_vi_parthica_restored = { copy_title_laws = c_legio_vi_parthica }
+			    any_vassal = {
+			        limit = {
+			            has_landed_title = c_legio_vi_parthica
+			        }
+                    c_legio_vi_parthica_restored = {
+						grant_title = PREV
+						religion = PREV
+					}
+					c_legio_vi_parthica = {
+                        activate_title = { title = THIS status = no }
+                        unsafe_destroy_landed_title = THIS
+                    
+                        e_landless = {
+                            holder_scope = {
+                                grant_title = PREVPREV
+                            }
+                        }
+					}
+					character_event = { id = LEG.4 }
+			    }
+			}
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
