@@ -32,6 +32,40 @@ c_legio_xii_fulminata = {
 	}
 }
 
+c_legio_xii_fulminata_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 707 # Melitene
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_i_flavia_constantia = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -57,6 +91,40 @@ c_legio_i_flavia_constantia = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_i_flavia_constantia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 496 # Byzantion
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -100,6 +168,40 @@ c_legio_ii_flavia_constantia = {
 	}
 }
 
+c_legio_ii_flavia_constantia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 795 # Cusae
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_i_isaura_sagittaria = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -125,6 +227,40 @@ c_legio_i_isaura_sagittaria = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_i_isaura_sagittaria_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 496 # Byzantion
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -168,6 +304,40 @@ c_legio_i_iovia = {
 	}
 }
 
+c_legio_i_iovia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 510 # Tomis
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_ii_herculia = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -193,6 +363,40 @@ c_legio_ii_herculia = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_ii_herculia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 509 # Capidava
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -236,6 +440,40 @@ c_legio_ii_isaura = {
 	}
 }
 
+c_legio_ii_isaura_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 758 # Seleukeia
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_iii_diocletiana = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -261,6 +499,40 @@ c_legio_iii_diocletiana = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_iii_diocletiana_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 802 # Alexandria
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -304,6 +576,40 @@ c_legio_iv_parthica = {
 	}
 }
 
+c_legio_iv_parthica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 699 # Edessa
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_iv_italica = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -329,6 +635,40 @@ c_legio_iv_italica = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_iv_italica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 764 # Antioch
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -372,6 +712,40 @@ c_legio_ii_iulia_alpina = {
 	}
 }
 
+c_legio_ii_iulia_alpina_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 490 # Thessalonica
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+	
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_iii_herculea = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -397,6 +771,40 @@ c_legio_iii_herculea = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_iii_herculea_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 490 # Thessalonica
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -440,6 +848,40 @@ c_legio_iv_martia = {
 	}
 }
 
+c_legio_iv_martia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 777 # Betthorus
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_ii_felix_valentis_thebaeorum = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -465,6 +907,40 @@ c_legio_ii_felix_valentis_thebaeorum = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_ii_felix_valentis_thebaeorum_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 490 # Thessalonica
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -508,6 +984,40 @@ c_legio_i_flavia_theodosiana = {
 	}
 }
 
+c_legio_i_flavia_theodosiana_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 496 # Byzantion
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_i_maximiana_thaebanorum = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -533,6 +1043,40 @@ c_legio_i_maximiana_thaebanorum = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_i_maximiana_thaebanorum_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 795 # Ptolemais Hermiou
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -576,6 +1120,40 @@ c_legio_xv_apollinaris = {
 	}
 }
 
+c_legio_xv_apollinaris_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 704 # Satala
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_i_illyricorum = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -601,6 +1179,40 @@ c_legio_i_illyricorum = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_i_illyricorum_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 730 # Palmyra
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -644,6 +1256,40 @@ c_legio_xiii_gemina = {
 	}
 }
 
+c_legio_xiii_gemina_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 796 # Babylon Fortress
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_i_pontica = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -669,6 +1315,40 @@ c_legio_i_pontica = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_i_pontica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 678 # Trebizond
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -712,6 +1392,40 @@ c_legio_iii_cyrenaica = {
 	}
 }
 
+c_legio_iii_cyrenaica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 727 # Bostra
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_iv_scythia = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -737,6 +1451,40 @@ c_legio_iv_scythia = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_iv_scythia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 709 # Sura
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -780,6 +1528,40 @@ c_legio_i_armeniaca = {
 	}
 }
 
+c_legio_i_armeniaca_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 764 # Antioch
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_ii_traiana_fortis = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -805,6 +1587,40 @@ c_legio_ii_traiana_fortis = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_ii_traiana_fortis_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 794 # Apollonopolis Magna
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -848,6 +1664,40 @@ c_legio_v_macedonica = {
 	}
 }
 
+c_legio_v_macedonica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 507 # Oescus
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_iv_flavia_felix = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -873,6 +1723,40 @@ c_legio_iv_flavia_felix = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_iv_flavia_felix_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 505 # Singidunum
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -916,6 +1800,40 @@ c_legio_v_iovia = {
 	}
 }
 
+c_legio_v_iovia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 506 # Bononia
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_xi_claudia = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -941,6 +1859,40 @@ c_legio_xi_claudia = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_xi_claudia_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 507 # Oescus
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -984,6 +1936,40 @@ c_legio_iii_isaura = {
 	}
 }
 
+c_legio_iii_isaura_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 758 # Seleukeia
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_xvi_flavia_firma = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -1009,6 +1995,40 @@ c_legio_xvi_flavia_firma = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_xvi_flavia_firma_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 709 # Sura
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -1052,6 +2072,40 @@ c_legio_i_parthica = {
 	}
 }
 
+c_legio_i_parthica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 699 # Edessa
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_iii_parthica = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -1077,6 +2131,40 @@ c_legio_iii_parthica = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_iii_parthica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	#capital = 699 # Edessa
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
@@ -1118,6 +2206,38 @@ c_legio_ii_armeniaca = {
 	}
 }
 
+c_legio_ii_armeniaca_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_ii_parthica = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -1150,6 +2270,38 @@ c_legio_ii_parthica = {
 	}
 }
 
+c_legio_ii_parthica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
 c_legio_vi_parthica = {
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
@@ -1173,6 +2325,38 @@ c_legio_vi_parthica = {
 	primary = yes
 	
 	strength_growth_per_century = -0.10
+	
+	mercenary_type = roman_legion_composition
+
+	# Hire Trigger
+	allow = {
+		always = no # Legions can only be hired if vassalized.
+	}
+}
+
+c_legio_vi_parthica_restored = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+	
+	# Parent Religion 
+	religion = nicene
+	
+	culture = roman
+	
+	mercenary = yes
+
+	title = "COMES"
+	foa = "COMES_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
 	
 	mercenary_type = roman_legion_composition
 
