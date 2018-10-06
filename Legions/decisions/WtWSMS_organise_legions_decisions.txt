@@ -1349,13 +1349,18 @@ decisions = {
 			age = 16
 			has_landed_title = k_moesia_inferior
 			#NOT = { is_title_active = c_legio_v_macedonica }
-			NOT = { 
+			NOR = { 
 				c_legio_v_macedonica = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
 				}
-			}			
+				c_legio_v_macedonica_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
 		}
 		allow = {
 			wealth = 2000
@@ -6268,13 +6273,18 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_moesia_inferior
-			NOT = { 
+			NOR = { 
 				c_legio_xi_claudia = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
 				}
-			}			
+				c_legio_xi_claudia_restored = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+			}
 		}
 		allow = {
 			wealth = 2000
