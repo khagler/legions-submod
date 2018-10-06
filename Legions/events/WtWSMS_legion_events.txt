@@ -116,6 +116,49 @@ narrative_event = {
 	
 }
 
+# Ping to set legion commander as FROM
+character_event = {
+	id = LEG.4
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+		
+		liege = {
+			narrative_event = { id = LEG.5 }
+		}
+	}
+}
+
+# Legion restored
+# FROM is the legion commander
+# ROOT is the decision taker and liege
+narrative_event = {
+	id = LEG.5
+	title = EVTNAMELEG.5
+	desc = EVTDESCLEG.5
+	picture = GFX_evt_battle_roman
+		
+	is_triggered_only = yes
+	
+	immediate = {
+		# Workaround for grant_title in decision giving a strong claim...
+		FROM = {
+			primary_title = {
+				remove_claim = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTALEG.5
+		
+		prestige = 10
+	}
+}
+
 # Pannonian legions without Pannonia
 character_event = {
 	id = LEG.10
