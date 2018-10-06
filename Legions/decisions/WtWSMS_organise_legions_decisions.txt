@@ -13,8 +13,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_pannonia
 			#NOT = { is_title_active = c_legio_x_gemina } 
-			NOT = { 
+			NOR = { 
 				c_legio_x_gemina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_x_gemina_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -120,8 +125,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_dalmatia
 			#NOT = { is_title_active = c_legio_i_italica }
-			NOT = { 
+			NOR = { 
 				c_legio_i_italica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_italica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -227,8 +237,13 @@ decisions = {
 			age = 16
 			has_landed_title = d_noricum
 			#NOT = { is_title_active = c_legio_ii_italica }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_italica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_italica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -334,8 +349,13 @@ decisions = {
 			age = 16
 			has_landed_title = d_noricum
 			#NOT = { is_title_active = c_legio_i_noricorum }
-			NOT = { 
+			NOR = { 
 				c_legio_i_noricorum = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_noricorum_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -441,8 +461,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_annonaria
 			#NOT = { is_title_active = c_legio_viii_augusta }
-			NOT = { 
+			NOR = { 
 				c_legio_viii_augusta = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_viii_augusta_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -547,8 +572,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_arabia_petraea
 			#NOT = { is_title_active = c_legio_x_fretensis }
-			NOT = { 
+			NOR = { 
 				c_legio_x_fretensis = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_x_fretensis_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -653,8 +683,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_oriens
 			#NOT = { is_title_active = c_legio_iii_gallica }
-			NOT = { 
+			NOR = { 
 				c_legio_iii_gallica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_gallica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -759,8 +794,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_gallaecia
 			#NOT = { is_title_active = c_legio_vii_gemina }
-			NOT = { 
+			NOR = { 
 				c_legio_vii_gemina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_vii_gemina_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -865,8 +905,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_england
 			#NOT = { is_title_active = c_legio_ii_augusta }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_augusta = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_augusta_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -971,8 +1016,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_arabia_petraea
 			#NOT = { is_title_active = c_legio_vi_ferrata }
-			NOT = { 
+			NOR = { 
 				c_legio_vi_ferrata = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_vi_ferrata_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -1077,8 +1127,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_moesia_superior
 			#NOT = { is_title_active = c_legio_v_iovia }
-			NOT = { 
+			NOR = { 
 				c_legio_v_iovia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_v_iovia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -1183,8 +1238,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_moesia_superior
 			#NOT = { is_title_active = c_legio_iv_flavia_felix }	
-			NOT = { 
+			NOR = { 
 				c_legio_iv_flavia_felix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iv_flavia_felix_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -1607,8 +1667,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_belgica
 			#NOT = { is_title_active = c_legio_ii_britannica }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_britannica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_britannica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -1713,8 +1778,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_pontus
 			#NOT = { is_title_active = c_legio_xii_fulminata }
-			NOT = { 
+			NOR = { 
 				c_legio_xii_fulminata = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xii_fulminata_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -1822,8 +1892,13 @@ decisions = {
 				has_landed_title = e_roman_empire
 			}
 			#NOT = { is_title_active = c_legio_i_flavia_constantia }
-			NOT = { 
+			NOR = { 
 				c_legio_i_flavia_constantia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_flavia_constantia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -1928,8 +2003,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_egypt
 			#NOT = { is_title_active = c_legio_ii_flavia_constantia }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_flavia_constantia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_flavia_constantia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2037,8 +2117,13 @@ decisions = {
 				has_landed_title = e_roman_empire
 			}
 			#NOT = { is_title_active = c_legio_i_isaura_sagittaria }
-			NOT = { 
+			NOR = { 
 				c_legio_i_isaura_sagittaria = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_isaura_sagittaria_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2143,8 +2228,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_moesia_inferior
 			#NOT = { is_title_active = c_legio_ii_herculia }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_herculia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_herculia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2252,8 +2342,13 @@ decisions = {
 				has_landed_title = e_roman_empire
 			}
 			#NOT = { is_title_active = c_legio_ii_isaura }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_isaura = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_isaura_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2358,8 +2453,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_egypt
 			#NOT = { is_title_active = c_legio_iii_diocletiana }
-			NOT = { 
+			NOR = { 
 				c_legio_iii_diocletiana = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_diocletiana_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2464,8 +2564,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_oriens
 			#NOT = { is_title_active = c_legio_iv_parthica }
-			NOT = { 
+			NOR = { 
 				c_legio_iv_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iv_parthica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2570,8 +2675,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_oriens
 			#NOT = { is_title_active = c_legio_iv_italica }
-			NOT = { 
+			NOR = { 
 				c_legio_iv_italica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iv_italica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2676,8 +2786,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_macedonia
 			#NOT = { is_title_active = c_legio_ii_iulia_alpina }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_iulia_alpina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_iulia_alpina_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2782,8 +2897,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_macedonia
 			#NOT = { is_title_active = c_legio_iii_herculea }
-			NOT = { 
+			NOR = { 
 				c_legio_iii_herculea = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_herculea_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2888,8 +3008,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_oriens
 			#NOT = { is_title_active = c_legio_iv_martia }
-			NOT = { 
+			NOR = { 
 				c_legio_iv_martia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iv_martia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -2994,8 +3119,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_macedonia
 			#NOT = { is_title_active = c_legio_ii_felix_valentis_thebaeorum }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_felix_valentis_thebaeorum = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_felix_valentis_thebaeorum_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3103,8 +3233,13 @@ decisions = {
 				has_landed_title = e_roman_empire
 			}
 			#NOT = { is_title_active = c_legio_i_flavia_theodosiana }
-			NOT = { 
+			NOR = { 
 				c_legio_i_flavia_theodosiana = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_flavia_theodosiana_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3209,8 +3344,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_egypt
 			#NOT = { is_title_active = c_legio_i_maximiana_thaebanorum }
-			NOT = { 
+			NOR = { 
 				c_legio_i_maximiana_thaebanorum = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_maximiana_thaebanorum_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3315,8 +3455,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_pontus
 			#NOT = { is_title_active = c_legio_xv_apollinaris }
-			NOT = { 
+			NOR = { 
 				c_legio_xv_apollinaris = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xv_apollinaris_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3421,8 +3566,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_oriens
 			#NOT = { is_title_active = c_legio_i_illyricorum }
-			NOT = { 
+			NOR = { 
 				c_legio_i_illyricorum = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_illyricorum_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3527,8 +3677,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_egypt
 			#NOT = { is_title_active = c_legio_xiii_gemina }
-			NOT = { 
+			NOR = { 
 				c_legio_xiii_gemina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xiii_gemina_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3633,8 +3788,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_pontus
 			#NOT = { is_title_active = c_legio_i_pontica }
-			NOT = { 
+			NOR = { 
 				c_legio_i_pontica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_pontica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3739,8 +3899,13 @@ decisions = {
 			age = 16
 			has_landed_title = d_arabia_magna
 			#NOT = { is_title_active = c_legio_iii_cyrenaica }
-			NOT = { 
+			NOR = { 
 				c_legio_iii_cyrenaica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_cyrenaica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3845,8 +4010,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_oriens
 			#NOT = { is_title_active = c_legio_i_armeniaca }
-			NOT = { 
+			NOR = { 
 				c_legio_i_armeniaca = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_armeniaca_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -3951,8 +4121,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_egypt
 			#NOT = { is_title_active = c_legio_ii_traiana_fortis }
-			NOT = { 
+			NOR = { 
 				c_legio_ii_traiana_fortis = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_traiana_fortis_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4057,8 +4232,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_oriens
 			#NOT = { is_title_active = c_legio_iv_scythia }
-			NOT = { 
+			NOR = { 
 				c_legio_iv_scythia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iv_scythia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4163,8 +4343,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_moesia_superior
 			#NOT = { is_title_active = c_legio_i_iovia }
-			NOT = { 
+			NOR = { 
 				c_legio_i_iovia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_iovia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4319,8 +4504,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_england
-			NOT = { 
+			NOR = { 
 				c_legio_xx_valeria_victrix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xx_valeria_victrix_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4424,8 +4614,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_england
-			NOT = { 
+			NOR = { 
 				c_legio_vi_victrix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_vi_victrix_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4529,8 +4724,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_septem_provincae
-			NOT = { 
+			NOR = { 
 				c_legio_i_iulia_alpina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_iulia_alpina_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4634,8 +4834,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_septem_provincae
-			NOT = { 
+			NOR = { 
 				c_legio_iii_iulia_alpina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_iulia_alpina_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4739,8 +4944,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_germania_inferior
-			NOT = { 
+			NOR = { 
 				c_legio_i_minervia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_minervia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4844,8 +5054,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_germania_inferior
-			NOT = { 
+			NOR = { 
 				c_legio_xxx_ulpia_victrix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xxx_ulpia_victrix_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -4949,8 +5164,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_germania_inferior
-			NOT = { 
+			NOR = { 
 				c_legio_i_flavia_martis = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_flavia_martis_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5054,8 +5274,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_germania_inferior
-			NOT = { 
+			NOR = { 
 				c_legio_xxii_primigenia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xxii_primigenia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5159,8 +5384,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_africa
-			NOT = { 
+			NOR = { 
 				c_legio_i_flavia_pacis = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_flavia_pacis_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5264,8 +5494,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_africa
-			NOT = { 
+			NOR = { 
 				c_legio_ii_flavia_virtuis = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_flavia_virtuis_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5369,8 +5604,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_africa
-			NOT = { 
+			NOR = { 
 				c_legio_iii_flavia_salutis = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_flavia_salutis_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5474,8 +5714,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_raetia_noricum
-			NOT = { 
+			NOR = { 
 				c_legio_iii_italica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_italica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5579,8 +5824,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_pannonia
-			NOT = { 
+			NOR = { 
 				c_legio_xiv_gemina = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xiv_gemina_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5685,8 +5935,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_pannonia
-			NOT = { 
+			NOR = { 
 				c_legio_i_adiutrix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_adiutrix_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5791,8 +6046,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_pannonia
-			NOT = { 
+			NOR = { 
 				c_legio_ii_adiutrix = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_adiutrix_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -5897,8 +6157,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_pannonia
-			NOT = { 
+			NOR = { 
 				c_legio_vi_herculia = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_vi_herculia_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -6111,8 +6376,13 @@ decisions = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
-			NOT = { 
+			NOR = { 
 				c_legio_iii_isaura = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_isaura_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -6216,8 +6486,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_oriens
-			NOT = { 
+			NOR = { 
 				c_legio_xvi_flavia_firma = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_xvi_flavia_firma_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -6321,8 +6596,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_oriens
-			NOT = { 
+			NOR = { 
 				c_legio_i_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_i_parthica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -6426,8 +6706,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_oriens
-			NOT = { 
+			NOR = { 
 				c_legio_iii_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_parthica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -6531,8 +6816,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_oriens
-			NOT = { 
+			NOR = { 
 				c_legio_ii_armeniaca = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_armeniaca_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -6636,8 +6926,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_oriens
-			NOT = { 
+			NOR = { 
 				c_legio_ii_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_ii_parthica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
@@ -6741,8 +7036,13 @@ decisions = {
 			prisoner = no
 			age = 16
 			has_landed_title = k_oriens
-			NOT = { 
+			NOR = { 
 				c_legio_vi_parthica = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_vi_parthica_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
