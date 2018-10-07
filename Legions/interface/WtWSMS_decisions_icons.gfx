@@ -512,295 +512,295 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_restore_legio_x_gemina"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_italica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_italica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_noricorum"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_viii_augusta"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_suburbicaria"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_raetia_noricum"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_sicilia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_x_fretensis"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_gallica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_vii_gemina"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_augusta"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_vi_ferrata"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_septem_provincae"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_belgica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_germania_inferior"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_augusta"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_dacia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_mesopotamia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_flavia_constantia_gallicana"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_britannica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xii_fulminata"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_flavia_constantia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_flavia_constantia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_isaura_sagittaria"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_herculia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_isaura"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_diocletiana"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iv_parthica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iv_italica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_iulia_alpina"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_herculea"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iv_martia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_felix_valentis_thebaeorum"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_flavia_theodosiana"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_maximiana_thaebanorum"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xv_apollinaris"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_illyricorum"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xiii_gemina"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_pontica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_cyrenaica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_armeniaca"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_traiana_fortis"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iv_scythia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_iovia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_sala"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_v_macedonica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iv_flavia_felix"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_v_iovia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xx_valeria_victrix"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_vi_victrix"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_iulia_alpina"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_iulia_alpina"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_minervia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xxx_ulpia_victrix"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_flavia_martis"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xxii_primigenia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_flavia_pacis"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_flavia_virtuis"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_flavia_salutis"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_italica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xiv_gemina"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_adiutrix"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_adiutrix"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_vi_herculia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xi_claudia"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_isaura"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_xvi_flavia_firma"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_i_parthica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_iii_parthica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_armeniaca"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_ii_parthica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_restore_legio_vi_parthica"
-		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_restore_legio.dds"
+		texturefile = "gfx\\interface\\WtWSMS\\decision_icon_organize_legio.dds"
 	}
 	spriteType = {
 		name = "GFX_adopt_bureaucratic_government"
