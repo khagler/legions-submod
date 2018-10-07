@@ -1460,8 +1460,13 @@ decisions = {
 			age = 16
 			has_landed_title = k_africa
 			#NOT = { is_title_active = c_legio_iii_augusta }
-			NOT = { 
+			NOR = { 
 				c_legio_iii_augusta = {
+					holder_scope = {
+						is_liege_or_above = ROOT
+					}
+				}
+				c_legio_iii_augusta_restored = {
 					holder_scope = {
 						is_liege_or_above = ROOT
 					}
