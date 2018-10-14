@@ -1,3 +1,3 @@
-name = "WtWSMS Restore the Legions"
+name = "WTWSMS Restore the Legions"
 path = "mod/Legions"
 dependencies = { "When the World Stopped Making Sense" }
